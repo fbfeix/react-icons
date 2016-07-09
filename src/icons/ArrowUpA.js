@@ -1,5 +1,5 @@
 var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+var IconBase = require('./IconBase');
 
 var ArrowUpA = React.createClass({
 	render: function() {
