@@ -1,5 +1,5 @@
 var React = require('react');
-var IconBase = require('./IconBase');
+var IconBase = require(__dirname + '/../components/IconBase/IconBase');
 
 var SocialCss3Outline = React.createClass({
 	render: function() {
