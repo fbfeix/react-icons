@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosInformationOutline = React.createClass({
-	render: function() {
+export default class IosInformationOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<g>
@@ -17,4 +17,4 @@ var IosInformationOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

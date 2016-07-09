@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosSpeedometerOutline = React.createClass({
-	render: function() {
+export default class IosSpeedometerOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,64C132.288,64,32,164.226,32,287.938c0,56.975,21.283,108.97,56.316,148.5c3.551,4.006,7.241,7.82,11.066,11.562
@@ -24,4 +24,4 @@ var IosSpeedometerOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

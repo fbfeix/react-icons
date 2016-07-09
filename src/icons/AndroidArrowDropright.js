@@ -1,12 +1,12 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidArrowDropright = React.createClass({
-	render: function() {
+export default class AndroidArrowDropright extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="192,128 320,256 192,384 	"></polygon>
 </g>
 </IconBase>;
 	}
-});
+};

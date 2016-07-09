@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var LockCombination = React.createClass({
-	render: function() {
+export default class LockCombination extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M384,176.905V128C384,57.308,326.692,0,256,0S128,57.308,128,128v48.906C88.725,212.062,64,263.141,64,320
@@ -28,4 +28,4 @@ var LockCombination = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

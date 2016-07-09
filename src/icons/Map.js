@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Map = React.createClass({
-	render: function() {
+export default class Map extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M473.152,136.58L368.594,66.307c-4.644-3.076-10.365-3.076-15.031,0l-97.094,65.195l-97.109-65.195
@@ -30,4 +30,4 @@ var Map = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

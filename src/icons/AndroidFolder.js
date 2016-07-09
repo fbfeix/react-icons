@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidFolder = React.createClass({
-	render: function() {
+export default class AndroidFolder extends React.Component {
+	render() {
 		return <IconBase>
 <g id="Icon_10_">
 	<g>
@@ -14,4 +14,4 @@ var AndroidFolder = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

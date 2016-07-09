@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidGlobe = React.createClass({
-	render: function() {
+export default class AndroidGlobe extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,48C141.124,48,48,141.125,48,256c0,114.875,93.124,208,208,208c114.875,0,208-93.125,208-208
 	C464,141.125,370.875,48,256,48z M234.451,432.999c-39.464-4.726-75.978-22.392-104.519-50.932
@@ -24,4 +24,4 @@ var AndroidGlobe = React.createClass({
 	s10.037,3.419,18.384,2.228C421.055,330.798,405.103,359.029,382.067,382.067z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCogOutline = React.createClass({
-	render: function() {
+export default class IosCogOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M448,272.754v-32.008l-33.291-8.703l-2.601-13.204l27.594-20.905l-12.197-29.608l-34.392,4.802l-7.498-10.603
@@ -29,4 +29,4 @@ var IosCogOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

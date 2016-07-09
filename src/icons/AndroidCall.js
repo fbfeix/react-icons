@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidCall = React.createClass({
-	render: function() {
+export default class AndroidCall extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M426.666,330.667c-26.666,0-52.271-4.271-75.729-11.729c-7.469-2.136-16-1.073-21.332,5.333l-46.939,46.928
 	c-60.802-30.928-109.864-80-140.802-140.803l46.939-46.927c5.332-5.333,7.462-13.864,5.332-21.333
@@ -10,4 +10,4 @@ var AndroidCall = React.createClass({
 	C64,285.864,226.136,448,426.666,448c11.73,0,21.334-9.604,21.334-21.333V352C448,340.271,438.396,330.667,426.666,330.667z"></path>
 </IconBase>;
 	}
-});
+};

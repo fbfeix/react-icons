@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidStarOutline = React.createClass({
-	render: function() {
+export default class AndroidStarOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M458,210.409l-145.267-12.476L256,64l-56.743,133.934L54,210.409l110.192,95.524L131.161,448L256,372.686L380.83,448
 	l-33.021-142.066L458,210.409z M272.531,345.286L256,335.312l-16.53,9.973l-59.988,36.191l15.879-68.296l4.369-18.79l-14.577-12.637
@@ -10,4 +10,4 @@ var AndroidStarOutline = React.createClass({
 	l-52.993,45.939l-14.576,12.636l4.367,18.788l15.875,68.299L272.531,345.286z"></path>
 </IconBase>;
 	}
-});
+};

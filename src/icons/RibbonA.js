@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var RibbonA = React.createClass({
-	render: function() {
+export default class RibbonA extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M352,32l-82.9,176.612c39.996,3.608,75.273,23.554,99.096,53.128L432,128L352,32z"></path>
@@ -14,4 +14,4 @@ var RibbonA = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

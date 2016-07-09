@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidFavoriteOutline = React.createClass({
-	render: function() {
+export default class AndroidFavoriteOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M349.6,64c-36.4,0-70.718,16.742-93.6,43.947C233.117,80.742,198.8,64,162.4,64C97.918,64,48,114.221,48,179.095
 	c0,79.516,70.718,143.348,177.836,241.694L256,448l30.164-27.211C393.281,322.442,464,258.61,464,179.095
@@ -13,4 +13,4 @@ var AndroidFavoriteOutline = React.createClass({
 	c0,29.033-12.467,57.459-40.422,92.171C362.794,307.006,319.253,346.975,268.836,393.257z"></path>
 </IconBase>;
 	}
-});
+};

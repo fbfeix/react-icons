@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosReverseCameraOutline = React.createClass({
-	render: function() {
+export default class IosReverseCameraOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M301.815,318.608c-13.114,11.029-28.956,17.356-45.815,17.356c-36.36,0-66.286-28.965-70.89-61.965h30.61l-38.87-50
@@ -20,4 +20,4 @@ var IosReverseCameraOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

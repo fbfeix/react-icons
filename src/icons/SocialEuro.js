@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialEuro = React.createClass({
-	render: function() {
+export default class SocialEuro extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M234,272v-48h131.094l7.149-48H234v-1.83c0-35.92,14.975-58.086,79.25-58.086c26.264,0,55.867,2.498,93.189,8.742
@@ -12,4 +12,4 @@ var SocialEuro = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var NoSmoking = React.createClass({
-	render: function() {
+export default class NoSmoking extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -33,4 +33,4 @@ var NoSmoking = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

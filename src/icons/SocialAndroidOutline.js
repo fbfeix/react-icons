@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialAndroidOutline = React.createClass({
-	render: function() {
+export default class SocialAndroidOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<g>
@@ -29,4 +29,4 @@ var SocialAndroidOutline = React.createClass({
 <path d="M305,138.9c-7.4,0-13.5-6-13.5-13.3c0-7.3,6-13.3,13.5-13.3c7.4,0,13.5,6,13.5,13.3C318.5,132.9,312.4,138.9,305,138.9z"></path>
 </IconBase>;
 	}
-});
+};

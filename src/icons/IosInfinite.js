@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosInfinite = React.createClass({
-	render: function() {
+export default class IosInfinite extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M456.821,182.377C436.782,162.788,410.062,152,381.585,152c-28.477,0-55.195,10.788-75.21,30.354l-39.106,37.885
 	l25.06,24.689l38.843-37.769c13.458-13.095,31.321-20.307,50.299-20.307c18.979,0,36.841,7.212,50.282,20.291
@@ -16,4 +16,4 @@ var IosInfinite = React.createClass({
 	c20.179-19.573,31.301-45.727,31.317-73.64C488.017,228.167,476.942,202.018,456.821,182.377z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var HelpBuoy = React.createClass({
-	render: function() {
+export default class HelpBuoy extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,32C132.3,32,32,132.3,32,256s100.3,224,224,224s224-100.3,224-224S379.7,32,256,32z M434.3,184.5l-61.5,18.9
 	c-6.3-14-15.1-26.8-26.3-38c-11.2-11.2-24-20-38-26.3l18.9-61.5c23.8,9.5,45.6,23.9,64.3,42.5C410.4,138.9,424.8,160.7,434.3,184.5z
@@ -13,4 +13,4 @@ var HelpBuoy = React.createClass({
 	C424.8,351.3,410.4,373.1,391.8,391.8z"></path>
 </IconBase>;
 	}
-});
+};

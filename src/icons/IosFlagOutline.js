@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosFlagOutline = React.createClass({
-	render: function() {
+export default class IosFlagOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M368,112c-11,1.4-24.9,3.5-39.7,3.5c-23.1,0-44-5.7-65.2-10.2c-21.5-4.6-43.7-9.3-67.2-9.3c-46.9,0-62.8,10.1-64.4,11.2
@@ -13,4 +13,4 @@ var IosFlagOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

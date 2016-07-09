@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Eject = React.createClass({
-	render: function() {
+export default class Eject extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M399,320L399,320c10,0,16.8-7.1,16.8-15.9c0-3.3-1.1-6.1-2.8-9L275.3,104.7c-4.6-5.3-11.5-8.7-19.3-8.7
@@ -12,4 +12,4 @@ var Eject = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Ipad = React.createClass({
-	render: function() {
+export default class Ipad extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M112,72.8v366.4c0,4.9,3.9,8.8,8.8,8.8h270.4c4.9,0,8.8-3.9,8.8-8.8V72.8c0-4.9-3.9-8.8-8.8-8.8H120.8
 	C115.9,64,112,67.9,112,72.8z M256,437.6c-7.5,0-13.6-6-13.6-13.5c0-7.5,6.1-13.6,13.6-13.6c7.4,0,13.5,6.1,13.5,13.6
@@ -10,4 +10,4 @@ var Ipad = React.createClass({
 	c-3.4,0-6-2.8-6-6.3V118.6z"></path>
 </IconBase>;
 	}
-});
+};

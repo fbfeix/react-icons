@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Ionic = React.createClass({
-	render: function() {
+export default class Ionic extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M423.592,132.804C427.006,127.714,429,121.59,429,115c0-17.675-14.33-32-32-32c-6.59,0-12.714,1.994-17.805,5.409
@@ -18,4 +18,4 @@ var Ionic = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

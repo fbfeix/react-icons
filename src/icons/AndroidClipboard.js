@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidClipboard = React.createClass({
-	render: function() {
+export default class AndroidClipboard extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M405.333,80h-87.35C310.879,52.396,285.821,32,256,32s-54.879,20.396-61.983,48h-87.35C83.198,80,64,99.198,64,122.667
 	v314.665C64,460.801,83.198,480,106.667,480h298.666C428.802,480,448,460.801,448,437.332V122.667C448,99.198,428.802,80,405.333,80
@@ -10,4 +10,4 @@ var AndroidClipboard = React.createClass({
 	H104V120h40v72h224v-72h40V440z"></path>
 </IconBase>;
 	}
-});
+};

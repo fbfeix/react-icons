@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosUnlockedOutline = React.createClass({
-	render: function() {
+export default class IosUnlockedOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,288c-17.673,0-32,14.327-32,32c0,14.91,10.198,27.439,24,30.992V384h16v-33.008c13.802-3.553,24-16.082,24-30.992
@@ -14,4 +14,4 @@ var IosUnlockedOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

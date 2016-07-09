@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Flag = React.createClass({
-	render: function() {
+export default class Flag extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M426.4,182.5c-35.8,5.9-94.2,7.5-133-66.1c-41.6-79.1-108.8-81.5-148.1-74.3c-19.1,3.5-33.4,19.5-33.4,35v196.6
@@ -12,4 +12,4 @@ var Flag = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

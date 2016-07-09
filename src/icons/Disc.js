@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Disc = React.createClass({
-	render: function() {
+export default class Disc extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,158.9c-53.7,0-97.2,43.5-97.2,97.2c0,53.7,43.5,97.1,97.2,97.1c53.7,0,97.2-43.5,97.2-97.1
@@ -13,4 +13,4 @@ var Disc = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

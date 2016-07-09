@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCalculatorOutline = React.createClass({
-	render: function() {
+export default class IosCalculatorOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M144,160h224V96H144V160z M160,112h192v32H160V112z"></path>
@@ -19,4 +19,4 @@ var IosCalculatorOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

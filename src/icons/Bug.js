@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Bug = React.createClass({
-	render: function() {
+export default class Bug extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M374.64,127.327C345.365,88.512,303.062,64,256,64s-89.365,24.512-118.64,63.327c6.354,15.64,15.833,30,28.13,42.297
@@ -30,4 +30,4 @@ var Bug = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

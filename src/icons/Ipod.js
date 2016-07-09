@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Ipod = React.createClass({
-	render: function() {
+export default class Ipod extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,311c-17.7,0-32,14.3-32,32c0,17.6,14.3,32,32,32c17.6,0,32-14.3,32-32C288,325.3,273.7,311,256,311z"></path>
@@ -13,4 +13,4 @@ var Ipod = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

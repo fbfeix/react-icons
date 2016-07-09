@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosFlower = React.createClass({
-	render: function() {
+export default class IosFlower extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M395.057,228.247c-28.651,0-64.502,7.35-92.66,14.518c-0.98-3.443-2.321-6.734-4.001-9.817
@@ -38,4 +38,4 @@ var IosFlower = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

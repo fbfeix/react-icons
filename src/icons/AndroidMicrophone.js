@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidMicrophone = React.createClass({
-	render: function() {
+export default class AndroidMicrophone extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,320c37.712,0,68.571-30.924,68.571-68.714V100.714C324.571,62.924,293.712,32,256,32s-68.571,30.924-68.571,68.714
@@ -12,4 +12,4 @@ var AndroidMicrophone = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialSkypeOutline = React.createClass({
-	render: function() {
+export default class SocialSkypeOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M170.2,96c14,0,27.7,3.9,39.6,11.3l10.3,6.4l12-2c8.5-1.5,17.2-2.2,25.9-2.2c40.5,0,78.5,15.5,107,43.7
@@ -26,4 +26,4 @@ var SocialSkypeOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

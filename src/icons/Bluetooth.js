@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Bluetooth = React.createClass({
-	render: function() {
+export default class Bluetooth extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M140,143.6c-15.9,15.9-11.7,17.3-10.6,18.4c1.1,1.1,89.8,85.6,89.8,85.6s3.9,3.4,3.9,8.4h0c0,5-3.9,8.4-3.9,8.4
@@ -18,4 +18,4 @@ var Bluetooth = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

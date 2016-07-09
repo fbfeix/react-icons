@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosTennisballOutline = React.createClass({
-	render: function() {
+export default class IosTennisballOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M464,256c0-114.863-93.13-208-208-208C141.137,48,48,141.136,48,256c0,114.863,93.137,208,208,208
 	c2.541,0,5.068-0.062,7.587-0.152c0.479-0.017,0.957-0.034,1.435-0.055c0.942-0.04,1.884-0.083,2.823-0.136
@@ -19,4 +19,4 @@ var IosTennisballOutline = React.createClass({
 	C434.351,367.118,363.957,436.432,275.943,445.623z"></path>
 </IconBase>;
 	}
-});
+};

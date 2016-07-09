@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Playstation = React.createClass({
-	render: function() {
+export default class Playstation extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -27,4 +27,4 @@ var Playstation = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

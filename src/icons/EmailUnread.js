@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var EmailUnread = React.createClass({
-	render: function() {
+export default class EmailUnread extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<circle cx="432" cy="160" r="64"></circle>
@@ -19,4 +19,4 @@ var EmailUnread = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

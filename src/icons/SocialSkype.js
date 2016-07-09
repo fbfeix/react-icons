@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialSkype = React.createClass({
-	render: function() {
+export default class SocialSkype extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M436.9,296.8c2.8-12.5,4.2-25.4,4.2-38.7c0-99.7-82-180.6-183.2-180.6c-10.7,0-21.1,0.9-31.3,2.6
 	C210.3,69.9,191,64,170.2,64C111.6,64,64,110.9,64,168.7c0,19.4,5.3,37.5,14.6,53c-2.4,11.7-3.7,23.9-3.7,36.3
@@ -20,4 +20,4 @@ var SocialSkype = React.createClass({
 	c8.8,5.6,15.7,12.9,20.7,21.5c4.9,8.6,7.4,19.4,7.4,31.8C364.8,318.9,360.5,332.5,351.9,344.3z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialTumblrOutline = React.createClass({
-	render: function() {
+export default class SocialTumblrOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M321.2,396.3c-11.8,0-22.4-2.8-31.5-8.3c-6.9-4.1-11.5-9.6-14-16.4c-2.6-6.9-3.6-22.3-3.6-46.4V224h96v-64h-96V48h-61.9
 	c-2.7,21.5-7.5,44.7-14.5,58.6s-14,25.8-25.6,35.7c-11.6,9.9-25.6,17.9-41.9,23.3V224h48v140.4c0,19,2,33.5,5.9,43.5
@@ -13,4 +13,4 @@ var SocialTumblrOutline = React.createClass({
 	v112h96v32h-96v117.1c0,34.6,2.4,46,4.6,52c3.8,10.3,10.8,18.6,21,24.6c11.7,7,25,10.5,39.7,10.5c15.7,0,31.3-3.3,46.7-9.8V431z"></path>
 </IconBase>;
 	}
-});
+};

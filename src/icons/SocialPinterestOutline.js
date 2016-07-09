@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialPinterestOutline = React.createClass({
-	render: function() {
+export default class SocialPinterestOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,32C132.3,32,32,132.3,32,256s100.3,224,224,224s224-100.3,224-224S379.7,32,256,32z M391.8,391.8
 	C355.5,428,307.3,448,256,448c-16.2,0-32.1-2-47.4-5.9c2.8-6.3,5.2-12.8,7-19.3c2.8-10,15.8-61.6,15.8-61.6
@@ -14,4 +14,4 @@ var SocialPinterestOutline = React.createClass({
 	s99.5,20,135.8,56.2C428,156.5,448,204.7,448,256S428,355.5,391.8,391.8z"></path>
 </IconBase>;
 	}
-});
+};

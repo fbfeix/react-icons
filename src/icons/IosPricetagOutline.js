@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPricetagOutline = React.createClass({
-	render: function() {
+export default class IosPricetagOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M464,32H304L48,320l160,160l256-288V32z M448,184L208.125,456L72.062,320L311.587,48H448V184z"></path>
@@ -11,4 +11,4 @@ var IosPricetagOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Archive = React.createClass({
-	render: function() {
+export default class Archive extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="256,307.7 384,192 304,192 304,96 207.6,96 207.6,192 128,192 	"></polygon>
@@ -12,4 +12,4 @@ var Archive = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosFilm = React.createClass({
-	render: function() {
+export default class IosFilm extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M56,88v336h400V88H56z M128,408H72v-48h56V408z M128,344H72v-48h56V344z M128,280H72v-48h56V280z M128,216H72v-48h56V216z
@@ -11,4 +11,4 @@ var IosFilm = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Mouse = React.createClass({
-	render: function() {
+export default class Mouse extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,32c-0.46,0-0.917,0.011-1.376,0.015l5.747,0.057C258.92,32.029,257.464,32,256,32z"></path>
@@ -24,4 +24,4 @@ var Mouse = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

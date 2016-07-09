@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosToggle = React.createClass({
-	render: function() {
+export default class IosToggle extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M128,320c-26.467,0-48,21.533-48,48s21.533,48,48,48s48-21.533,48-48S154.467,320,128,320z"></path>
@@ -16,4 +16,4 @@ var IosToggle = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

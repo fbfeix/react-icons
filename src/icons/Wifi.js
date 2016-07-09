@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Wifi = React.createClass({
-	render: function() {
+export default class Wifi extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256.1,96L256.1,96c-79.9,0-155.7,29.9-213.9,84.1L32,189.6l9.9,9.8l32.3,32l9.3,9.2l9.6-8.8
@@ -16,4 +16,4 @@ var Wifi = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

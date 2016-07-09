@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialCodepen = React.createClass({
-	render: function() {
+export default class SocialCodepen extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M241.239,303.936c-15.322-10.357-30.742-20.569-46.062-30.93c-2.03-1.373-3.43-1.472-5.502-0.029l-38.871,26.154
@@ -26,4 +26,4 @@ var SocialCodepen = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCloseEmpty = React.createClass({
-	render: function() {
+export default class IosCloseEmpty extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -13,4 +13,4 @@ var IosCloseEmpty = React.createClass({
 	352,340.3 267.6,256 352,171.8 "></polygon>
 </IconBase>;
 	}
-});
+};

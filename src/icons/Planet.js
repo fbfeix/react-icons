@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Planet = React.createClass({
-	render: function() {
+export default class Planet extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M96.298,265.705C101.315,349.55,170.887,416,255.988,416c37.957,0,72.818-13.227,100.25-35.311
@@ -21,4 +21,4 @@ var Planet = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

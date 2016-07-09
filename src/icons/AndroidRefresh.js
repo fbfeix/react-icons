@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidRefresh = React.createClass({
-	render: function() {
+export default class AndroidRefresh extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,388c-72.597,0-132-59.405-132-132c0-72.601,59.403-132,132-132c36.3,0,69.299,15.4,92.406,39.601L278,234h154V80
@@ -11,4 +11,4 @@ var AndroidRefresh = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

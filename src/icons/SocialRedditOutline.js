@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialRedditOutline = React.createClass({
-	render: function() {
+export default class SocialRedditOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<circle cx="322.3" cy="288.4" r="31.8"></circle>
@@ -26,4 +26,4 @@ var SocialRedditOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

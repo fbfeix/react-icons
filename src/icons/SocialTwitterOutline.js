@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialTwitterOutline = React.createClass({
-	render: function() {
+export default class SocialTwitterOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M492,109.5c-17.4,7.7-36,12.9-55.6,15.3c20-12,35.4-31,42.6-53.6c-18.7,11.1-39.4,19.2-61.5,23.5
 	C399.8,75.8,374.5,64,346.8,64c-53.5,0-96.8,43.4-96.8,96.9c0,7.6,0.8,15,2.5,22.1C172,179,100.5,140.4,52.8,81.7
@@ -19,4 +19,4 @@ var SocialTwitterOutline = React.createClass({
 	c8.1,0.9,17.4-0.6,18.9-0.8C442.2,141.1,437.2,144.6,434.2,146.7z"></path>
 </IconBase>;
 	}
-});
+};

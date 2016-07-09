@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosInfiniteOutline = React.createClass({
-	render: function() {
+export default class IosInfiniteOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M451.229,188.098C432.682,169.967,407.95,160,381.585,160c-26.363,0-51.095,9.967-69.642,28.098l-42.229,41.187
@@ -17,4 +17,4 @@ var IosInfiniteOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

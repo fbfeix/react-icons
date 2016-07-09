@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var PieGraph = React.createClass({
-	render: function() {
+export default class PieGraph extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M32.6,256h32H256V64.6v-32c-5-0.4-10.6-0.6-16-0.6C125.1,32,32,125.1,32,240C32,245.4,32.2,251,32.6,256z"></path>
@@ -11,4 +11,4 @@ var PieGraph = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

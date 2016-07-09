@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidPin = React.createClass({
-	render: function() {
+export default class AndroidPin extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,32c-88.004,0-160,70.557-160,156.801C96,306.4,256,480,256,480s160-173.6,160-291.199C416,102.557,344.004,32,256,32z
@@ -11,4 +11,4 @@ var AndroidPin = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

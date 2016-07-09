@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ToggleFilled = React.createClass({
-	render: function() {
+export default class ToggleFilled extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M352,208c-26.467,0-48,21.533-48,48c0,26.467,21.533,48,48,48s48-21.533,48-48C400,229.533,378.467,208,352,208z"></path>
@@ -11,4 +11,4 @@ var ToggleFilled = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

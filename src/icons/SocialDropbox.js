@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialDropbox = React.createClass({
-	render: function() {
+export default class SocialDropbox extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="177,77 64,150.9 142.1,213.6 256,143.1 	"></polygon>
@@ -13,4 +13,4 @@ var SocialDropbox = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

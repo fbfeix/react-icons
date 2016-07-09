@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ArrowSwap = React.createClass({
-	render: function() {
+export default class ArrowSwap extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M64,328v48c0,4.4,3.6,8,8,8h248v64l128-96l-128-96v64H72C67.6,320,64,323.6,64,328z"></path>
@@ -10,4 +10,4 @@ var ArrowSwap = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

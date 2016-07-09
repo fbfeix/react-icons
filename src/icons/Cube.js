@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Cube = React.createClass({
-	render: function() {
+export default class Cube extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M467.301,168.084c-1.805,0-3.516,0.329-5.07,0.962l-2.281,1.15l-171.475,88.938l-3.888,1.996c0,0-0.052,0.023-0.052,0.047
@@ -19,4 +19,4 @@ var Cube = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

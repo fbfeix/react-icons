@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var RadioWaves = React.createClass({
-	render: function() {
+export default class RadioWaves extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<circle cx="256" cy="256" r="64"></circle>
@@ -25,4 +25,4 @@ var RadioWaves = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

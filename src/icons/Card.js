@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Card = React.createClass({
-	render: function() {
+export default class Card extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M452,96H60c-15.5,0-27.9,12.5-28,28l0,0v0.3v263.4v0.3l0,0c0.2,15.5,12.5,28,28,28h392c15.6,0,28-12.7,28-28.3v0V124.3v0
@@ -14,4 +14,4 @@ var Card = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

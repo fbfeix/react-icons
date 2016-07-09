@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Videocamera = React.createClass({
-	render: function() {
+export default class Videocamera extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M367,185.3c0-5.1-4-9.3-9.2-9.3H306v-32.2c0-35.2-29.3-63.8-64.9-63.8H63v48h176.1c4.5,0,9.9,5.6,9.9,10.1V176H41.4
 	c-5.2,0-9.4,4.2-9.4,9.3v170.4v55.7v11.3c0,5.1,4.2,9.3,9.4,9.3h316.4c5.2,0,9.2-4.2,9.2-9.3v-64.5l113,34.7v-88.2v-88.2l-113,34.7
@@ -11,4 +11,4 @@ var Videocamera = React.createClass({
 	S278,341,258.2,341z"></path>
 </IconBase>;
 	}
-});
+};

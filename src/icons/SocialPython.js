@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialPython = React.createClass({
-	render: function() {
+export default class SocialPython extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M193.46,249.056c3.723-0.67,7.589-1.041,11.586-1.041L201.924,248h103.823c4.503,0,8.806-0.617,12.908-1.754
@@ -21,4 +21,4 @@ var SocialPython = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

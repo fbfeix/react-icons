@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidWalk = React.createClass({
-	render: function() {
+export default class AndroidWalk extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M288,112c22.223,0,39.997-17.776,39.997-40c0-22.225-17.774-40-39.997-40s-40.003,17.775-40.003,40
@@ -12,4 +12,4 @@ var AndroidWalk = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

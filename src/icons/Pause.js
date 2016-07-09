@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Pause = React.createClass({
-	render: function() {
+export default class Pause extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M224,435.8V76.1c0-6.7-5.4-12.1-12.2-12.1h-71.6c-6.8,0-12.2,5.4-12.2,12.1v359.7c0,6.7,5.4,12.2,12.2,12.2h71.6
@@ -12,4 +12,4 @@ var Pause = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

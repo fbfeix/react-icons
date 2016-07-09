@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Crop = React.createClass({
-	render: function() {
+export default class Crop extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="352" y="432" width="64" height="48"></rect>
@@ -11,4 +11,4 @@ var Crop = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosTrash = React.createClass({
-	render: function() {
+export default class IosTrash extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M320,113V93.3c0-16.2-13.1-29.3-29.3-29.3h-69.5C205.1,64,192,77.1,192,93.3V113h-80v15h21.1l23.6,290.7
@@ -12,4 +12,4 @@ var IosTrash = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

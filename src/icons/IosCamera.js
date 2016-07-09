@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCamera = React.createClass({
-	render: function() {
+export default class IosCamera extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M417.5,160h-61.7c-32.1-36-42.2-48-54.5-48h-88.5c-12.3,0-22.2,12-54.5,48H145v-16h-34v16H97.5C79.9,160,64,173.2,64,190.7
@@ -13,4 +13,4 @@ var IosCamera = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

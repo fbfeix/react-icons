@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Paintbrush = React.createClass({
-	render: function() {
+export default class Paintbrush extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M149.515,283.349c-51.921,0-83.939,45.661-83.939,95.085c0,22.691-10.071,39.153-33.575,48.104
@@ -18,4 +18,4 @@ var Paintbrush = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

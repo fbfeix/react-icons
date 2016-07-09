@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialVimeo = React.createClass({
-	render: function() {
+export default class SocialVimeo extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -18,4 +18,4 @@ var SocialVimeo = React.createClass({
 	c33.1-30.2,59.1-65.4,85.5-101.2c20.4-27.7,37.3-55.7,51.4-87C478.5,179.8,484,147.3,476.9,114z"></path>
 </IconBase>;
 	}
-});
+};

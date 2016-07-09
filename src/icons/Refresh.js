@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Refresh = React.createClass({
-	render: function() {
+export default class Refresh extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M416,352l96-111.9h-64.7c-2.3-27.9-10.5-54-23.5-77.3c-27.4-49.2-75.8-85.1-133-95.6c-0.7-0.1-1.5-0.3-2.2-0.4
 	c-0.5-0.1-0.9-0.2-1.4-0.2C277.1,64.9,266.6,64,256,64c-0.1,0-0.3,0-0.4,0c0,0,0,0,0,0c-90.9,0.2-167,63.6-186.7,148.6
@@ -15,4 +15,4 @@ var Refresh = React.createClass({
 	c66.4,0,122.8,46.6,129.5,112H312L416,352z"></path>
 </IconBase>;
 	}
-});
+};

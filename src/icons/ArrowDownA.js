@@ -1,10 +1,10 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ArrowDownA = React.createClass({
-	render: function() {
+export default class ArrowDownA extends React.Component {
+	render() {
 		return <IconBase>
 <polygon points="256.5,448.5 448.5,256.5 336.5,256.5 336.5,64.5 176.5,64.5 176.5,256.5 64.5,256.5 "></polygon>
 </IconBase>;
 	}
-});
+};

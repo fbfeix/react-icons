@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialBitcoin = React.createClass({
-	render: function() {
+export default class SocialBitcoin extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M410.5,279.2c-5-11.5-12.7-21.6-28.1-30.1c-8.2-4.5-16.1-7.8-25.4-10c5.4-2.5,10-5.4,16.3-11c7.5-6.6,13.1-15.7,15.6-23.3
 	c2.6-7.5,4.1-18,3.5-28.2c-1.1-16.8-4.4-33.1-13.2-44.8c-8.8-11.7-21.2-20.7-37.6-27c-12.6-4.8-25.5-7.8-45.5-8.9V32h-40v64h-32V32
@@ -14,4 +14,4 @@ var SocialBitcoin = React.createClass({
 	c7.8,3.3,15.2,6.9,19.8,13.2c4.6,6.3,8,15.6,8,24.7C335.1,325.7,332.3,334,324.8,340.6z"></path>
 </IconBase>;
 	}
-});
+};

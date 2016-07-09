@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidSearch = React.createClass({
-	render: function() {
+export default class AndroidSearch extends React.Component {
+	render() {
 		return <IconBase>
 <g id="Icon_4_">
 	<g>
@@ -19,4 +19,4 @@ var AndroidSearch = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

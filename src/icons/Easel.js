@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Easel = React.createClass({
-	render: function() {
+export default class Easel extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="80" y="144" width="352" height="192"></rect>
@@ -15,4 +15,4 @@ var Easel = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

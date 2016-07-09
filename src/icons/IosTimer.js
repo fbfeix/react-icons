@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosTimer = React.createClass({
-	render: function() {
+export default class IosTimer extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,48C141.1,48,48,141.1,48,256c0,114.9,93.1,208,208,208c114.9,0,208-93.1,208-208C464,141.1,370.9,48,256,48z
 	 M150.5,150.5c2.6-2.3,119.9,84.9,119.9,84.9c1,0.7,1.6,1.5,2.2,2.2c5,4.6,8.2,11,8.2,18.3c0,13.7-11.1,24.9-24.9,24.9
@@ -12,4 +12,4 @@ var IosTimer = React.createClass({
 	C447.5,361.5,361.7,447.2,256.1,447.2z"></path>
 </IconBase>;
 	}
-});
+};

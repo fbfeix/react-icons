@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Bowtie = React.createClass({
-	render: function() {
+export default class Bowtie extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M223.955,212.011c0,0,8.054-4.679,19.985-7.011c21.318-4.166,39.472-5.5,47.466,8.5c9.777,17.124,18.402,53.417,16.488,85.5
 	c-1,16.75-4.622,22.125-4.622,22.125s-15.333,9.525-47.341,6.875c-34.725-2.875-39.971-15.004-39.971-15.004
@@ -22,4 +22,4 @@ var Bowtie = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var BackspaceOutline = React.createClass({
-	render: function() {
+export default class BackspaceOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<g>
@@ -21,4 +21,4 @@ var BackspaceOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

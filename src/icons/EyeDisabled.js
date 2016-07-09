@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var EyeDisabled = React.createClass({
-	render: function() {
+export default class EyeDisabled extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -18,4 +18,4 @@ var EyeDisabled = React.createClass({
 	c9.8,14.6,15.6,32.3,15.6,51.4C345.6,306.4,305.4,347.3,256,347.3z"></path>
 </IconBase>;
 	}
-});
+};

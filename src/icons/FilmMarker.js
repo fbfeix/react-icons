@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var FilmMarker = React.createClass({
-	render: function() {
+export default class FilmMarker extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M448.4,208h-344l341.2-68c8.5-1.6,14-9.7,12.4-18.1l-8.9-45.4c-1.6-8.4-9.8-13.8-18.3-12.2L60.7,137.9
 	c-8.5,1.6-14,9.7-12.4,18l8.9,45.4c0.6,2.8,2.1,5.2,3.9,7.2c-7.4,1.2-13.1,7.2-13.1,14.9v209.2c0,8.5,7,15.4,15.6,15.4h384.8
@@ -10,4 +10,4 @@ var FilmMarker = React.createClass({
 	l19.3,58.4h62.7l-50.8,36L305,402.4z"></path>
 </IconBase>;
 	}
-});
+};

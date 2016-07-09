@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidCheckboxOutlineBlank = React.createClass({
-	render: function() {
+export default class AndroidCheckboxOutlineBlank extends React.Component {
+	render() {
 		return <IconBase>
 <g id="Icon_25_">
 	<g>
@@ -13,4 +13,4 @@ var AndroidCheckboxOutlineBlank = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

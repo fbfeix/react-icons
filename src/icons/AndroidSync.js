@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidSync = React.createClass({
-	render: function() {
+export default class AndroidSync extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,93.09V32l-80,81.454l80,81.456v-61.093c65.996,0,120,54.982,120,122.183c0,20.363-5,39.714-14.004,57.016L391,342.547
 	c15.996-25.457,25-54.988,25-86.547C416,166.401,343.998,93.09,256,93.09z M256,378.184c-66.001,0-120-54.988-120-122.184
@@ -10,4 +10,4 @@ var AndroidSync = React.createClass({
 	l-80-81.457V378.184z"></path>
 </IconBase>;
 	}
-});
+};

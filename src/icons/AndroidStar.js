@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidStar = React.createClass({
-	render: function() {
+export default class AndroidStar extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="256,372.686 380.83,448 347.809,305.934 458,210.409 312.733,197.934 256,64 199.257,197.934 54,210.409 
@@ -10,4 +10,4 @@ var AndroidStar = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

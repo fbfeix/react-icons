@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Calendar = React.createClass({
-	render: function() {
+export default class Calendar extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M144,128c17.7,0,32-14.3,32-32V64c0-17.7-14.3-32-32-32s-32,14.3-32,32v32C112,113.7,126.3,128,144,128z"></path>
@@ -12,4 +12,4 @@ var Calendar = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

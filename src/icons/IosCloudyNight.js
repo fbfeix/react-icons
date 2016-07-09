@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCloudyNight = React.createClass({
-	render: function() {
+export default class IosCloudyNight extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -21,4 +21,4 @@ var IosCloudyNight = React.createClass({
 	C257.5,235.3,226.3,209,189,209L189,209z"></path>
 </IconBase>;
 	}
-});
+};

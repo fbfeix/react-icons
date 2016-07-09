@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosMedkit = React.createClass({
-	render: function() {
+export default class IosMedkit extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="272,272 272,256 272,208 240,208 240,256 240,272 224,272 176,272 176,304 224,304 240,304 240,320 240,368 
@@ -12,4 +12,4 @@ var IosMedkit = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

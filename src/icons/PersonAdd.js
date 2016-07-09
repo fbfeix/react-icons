@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var PersonAdd = React.createClass({
-	render: function() {
+export default class PersonAdd extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="429,328 429,277 480,277 480,235 429,235 429,184 387,184 387,235 336,235 336,277 387,277 387,328 	"></polygon>
@@ -13,4 +13,4 @@ var PersonAdd = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

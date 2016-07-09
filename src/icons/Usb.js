@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Usb = React.createClass({
-	render: function() {
+export default class Usb extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M144,220C144,220,144.1,220.1,144,220L144,220z"></path>
@@ -22,4 +22,4 @@ var Usb = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

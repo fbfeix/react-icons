@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var CheckmarkCircled = React.createClass({
-	render: function() {
+export default class CheckmarkCircled extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,32C132.3,32,32,132.3,32,256c0,123.7,100.3,224,224,224c123.7,0,224-100.3,224-224C480,132.3,379.7,32,256,32z
@@ -13,4 +13,4 @@ var CheckmarkCircled = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCheckmarkOutline = React.createClass({
-	render: function() {
+export default class IosCheckmarkOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M340.1,177.3L215.3,303l-47.2-47.2l-17.8,17.8l56,56c2.5,2.5,5.9,4.5,8.9,4.5s6.3-2,8.8-4.4l133.7-134.4L340.1,177.3z"></path>
@@ -14,4 +14,4 @@ var IosCheckmarkOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

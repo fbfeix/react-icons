@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidPrint = React.createClass({
-	render: function() {
+export default class AndroidPrint extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M399.95,160h-287.9C76.824,160,48,188.803,48,224v138.667h79.899V448h256.201v-85.333H464V224
@@ -10,4 +10,4 @@ var AndroidPrint = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

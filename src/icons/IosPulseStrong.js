@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPulseStrong = React.createClass({
-	render: function() {
+export default class IosPulseStrong extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M448,273.001c-21.27,0-39.296,13.999-45.596,32.999h-38.857l-28.361-85.417c-2.176-6.553-8.303-10.956-15.183-10.956
 	c-0.112,0-0.224,0-0.335,0.004c-7.016,0.145-13.117,4.844-15.049,11.588l-44.484,155.262L207.782,62.373
@@ -12,4 +12,4 @@ var IosPulseStrong = React.createClass({
 	C409.973,355.999,427.477,369,448,369c26.511,0,48-22.492,48-49C496,293.491,474.511,273.001,448,273.001z"></path>
 </IconBase>;
 	}
-});
+};

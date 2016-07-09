@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosHeartOutline = React.createClass({
-	render: function() {
+export default class IosHeartOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
 	c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
@@ -15,4 +15,4 @@ var IosHeartOutline = React.createClass({
 	C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"></path>
 </IconBase>;
 	}
-});
+};

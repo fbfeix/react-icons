@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPie = React.createClass({
-	render: function() {
+export default class IosPie extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M272,64v224L74.245,337.376C101.653,420.221,179.841,480,271.875,480C386.75,480,480,386.875,480,272S387,64,272,64L272,64
@@ -11,4 +11,4 @@ var IosPie = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosColorFilter = React.createClass({
-	render: function() {
+export default class IosColorFilter extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M366.194,212.122c1.185-6.528,1.807-13.252,1.807-20.122c0-61.856-50.146-112-112.001-112
@@ -29,4 +29,4 @@ var IosColorFilter = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

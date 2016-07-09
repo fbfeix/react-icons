@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Shuffle = React.createClass({
-	render: function() {
+export default class Shuffle extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M370.1,181.3H399v47.3l81-83.2L399,64v54h-28.9c-82.7,0-129.4,61.9-170.6,116.5c-37,49.1-69,95.4-120.6,95.4H32v63.3h46.9
 	c82.7,0,129.4-65.8,170.6-120.4C286.5,223.7,318.4,181.3,370.1,181.3z M153.2,217.5c3.5-4.6,7.1-9.3,10.7-14.1
@@ -11,4 +11,4 @@ var Shuffle = React.createClass({
 	H399V448l81-81.4l-81-83.2V330.4z"></path>
 </IconBase>;
 	}
-});
+};

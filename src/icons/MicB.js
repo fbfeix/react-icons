@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var MicB = React.createClass({
-	render: function() {
+export default class MicB extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256.4,32c-35.1,0.1-65.8,23.2-76.8,59.3c-5.6,18.5-3.5,44.8-1.2,54.5c2.3,9.7,7.3,19.9,13.2,28.3
@@ -17,4 +17,4 @@ var MicB = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

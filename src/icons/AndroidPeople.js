@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidPeople = React.createClass({
-	render: function() {
+export default class AndroidPeople extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M337.454,232c33.599,0,61.092-27.002,61.092-60c0-32.997-27.493-60-61.092-60s-61.09,27.003-61.09,60
 	C276.364,204.998,303.855,232,337.454,232z M174.546,232c33.599,0,61.09-27.002,61.09-60c0-32.997-27.491-60-61.09-60
@@ -11,4 +11,4 @@ var AndroidPeople = React.createClass({
 	C480,298.998,385.312,287.003,337.454,287.003z"></path>
 </IconBase>;
 	}
-});
+};

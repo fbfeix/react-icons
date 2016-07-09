@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosMicOff = React.createClass({
-	render: function() {
+export default class IosMicOff extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="264.2" y="1.1" transform="matrix(0.8629 -0.5053 0.5053 0.8629 -92.0515 172.66)" width="16" height="509.8"></rect>
@@ -14,4 +14,4 @@ var IosMicOff = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

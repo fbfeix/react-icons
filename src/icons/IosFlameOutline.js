@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosFlameOutline = React.createClass({
-	render: function() {
+export default class IosFlameOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M223.899,32c25.691,145-96.732,142-95.895,288c0.686,119.51,104.975,160,128.143,160c23.166,0,113.88-26,126.931-160
 	C393.711,210.816,310.572,96,223.899,32z M256.147,472c0,0-40.701-35.816-40.701-80c0-44.183,40.555-80,40.555-80
@@ -14,4 +14,4 @@ var IosFlameOutline = React.createClass({
 	c32.513,28.827,61.257,63.03,82.822,98.877C357.576,219.35,371.715,271.615,367.153,318.449z"></path>
 </IconBase>;
 	}
-});
+};

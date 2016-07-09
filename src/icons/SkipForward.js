@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SkipForward = React.createClass({
-	render: function() {
+export default class SkipForward extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -15,4 +15,4 @@ var SkipForward = React.createClass({
 	C448,101,443.1,96,436.3,96z"></path>
 </IconBase>;
 	}
-});
+};

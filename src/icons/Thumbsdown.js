@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Thumbsdown = React.createClass({
-	render: function() {
+export default class Thumbsdown extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M87.8,252.7C74,257.2,64,270.2,64,285.5c0,19,15.4,34.5,34.5,34.5h102.6c-2,25-10,53.6-1.1,87.3
@@ -13,4 +13,4 @@ var Thumbsdown = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialTux = React.createClass({
-	render: function() {
+export default class SocialTux extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path fill="#010101" d="M254.7,101.3c-0.6,1-1.2,2-1.7,3.1c1.8-3.5,4.3-6.5,7.4-8.7C258.3,97,256.3,98.8,254.7,101.3
@@ -53,4 +53,4 @@ var SocialTux = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

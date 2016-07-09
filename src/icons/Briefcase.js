@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Briefcase = React.createClass({
-	render: function() {
+export default class Briefcase extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M272,272h-32v-8H32v176c0,4.4,3.3,8,7.8,8h432.5c4.4,0,7.7-3.6,7.7-8V264H272V272z"></path>
@@ -12,4 +12,4 @@ var Briefcase = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

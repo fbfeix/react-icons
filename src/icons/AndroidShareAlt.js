@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidShareAlt = React.createClass({
-	render: function() {
+export default class AndroidShareAlt extends React.Component {
+	render() {
 		return <IconBase>
 <g id="Icon_33_">
 	<g>
@@ -16,4 +16,4 @@ var AndroidShareAlt = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

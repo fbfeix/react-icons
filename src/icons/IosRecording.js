@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosRecording = React.createClass({
-	render: function() {
+export default class IosRecording extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M386.2,144c-60.6,0-109.8,49.9-109.8,111.8c0,40.4,21,76.2,52.5,95.2H183.1c31.5-19,52.5-54.8,52.5-95.2
@@ -14,4 +14,4 @@ var IosRecording = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

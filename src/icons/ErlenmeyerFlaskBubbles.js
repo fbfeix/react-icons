@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ErlenmeyerFlaskBubbles = React.createClass({
-	render: function() {
+export default class ErlenmeyerFlaskBubbles extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M445.9,427.1L328,227.9V78c0-7.7-6.5-14-14.5-14c-8,0-14.5,6.2-14.5,14v153.6c0,1.8,0.6,3.6,1.3,5.3
@@ -15,4 +15,4 @@ var ErlenmeyerFlaskBubbles = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

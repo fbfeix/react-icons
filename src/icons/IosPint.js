@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPint = React.createClass({
-	render: function() {
+export default class IosPint extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M368,170.085c0-21.022-0.973-88.554-19.308-125.013C344.244,36.228,336.25,32,316.999,32H195.001
 	c-19.25,0-27.246,4.197-31.693,13.041C144.973,81.5,144,149.25,144,170.272c0,98,32,100.353,32,180.853c0,39.5-16,71.402-16,99.402
@@ -12,4 +12,4 @@ var IosPint = React.createClass({
 	C164.001,94.653,169.572,67.951,177.602,51.983z"></path>
 </IconBase>;
 	}
-});
+};

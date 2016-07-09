@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidSubway = React.createClass({
-	render: function() {
+export default class AndroidSubway extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,48c-93.864,0-176,10.668-176,85.334v213.332c0,41.604,33.062,74.666,74.667,74.666L128,448v16h256v-16l-26.667-26.668
@@ -13,4 +13,4 @@ var AndroidSubway = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,10 +1,10 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidRemove = React.createClass({
-	render: function() {
+export default class AndroidRemove extends React.Component {
+	render() {
 		return <IconBase>
 <rect x="96" y="235" width="320" height="42"></rect>
 </IconBase>;
 	}
-});
+};

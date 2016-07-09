@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var DocumentText = React.createClass({
-	render: function() {
+export default class DocumentText extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M398.6,169.2c-0.9-2.2-2-4.3-3.5-6.1l-83.8-91.7c-1.9-2.1-4.2-3.6-6.7-4.9c-2.9-1.5-6.1-2.1-9.5-2.1H135.2
@@ -15,4 +15,4 @@ var DocumentText = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

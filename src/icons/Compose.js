@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Compose = React.createClass({
-	render: function() {
+export default class Compose extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M442.8,99.6l-30.4-30.4c-7-6.9-18.2-6.9-25.1,0L355.5,101l55.5,55.5l31.8-31.7C449.7,117.7,449.7,106.5,442.8,99.6z"></path>
@@ -14,4 +14,4 @@ var Compose = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

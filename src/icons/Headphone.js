@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Headphone = React.createClass({
-	render: function() {
+export default class Headphone extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M447.4,238.2c-3.2-59.8-21.9-108.6-56-145.2c-0.1-0.1-0.1-0.1-0.2-0.2c-7.7-8.4-16.1-15.9-24.8-22.6
 	c-9-6.9-18.6-13-28.5-18.1c-25.3-13.1-53-20-82.1-20c-29,0-56.6,6.9-81.9,20c-9.9,5.1-19.4,11.2-28.4,18.1
@@ -15,4 +15,4 @@ var Headphone = React.createClass({
 	c31.7,0,51.8-13,72.1-80C444,368,450.1,288.9,447.4,238.2z"></path>
 </IconBase>;
 	}
-});
+};

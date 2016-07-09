@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Steam = React.createClass({
-	render: function() {
+export default class Steam extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -20,4 +20,4 @@ var Steam = React.createClass({
 	c15.5,6.2,33.2-1.3,39.4-16.8c6.2-15.5-1.3-33.1-16.9-39.4l-15.9-6.4C319.1,283.5,321.8,283.1,324.6,283.1z"></path>
 </IconBase>;
 	}
-});
+};

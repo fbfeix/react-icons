@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialTwitter = React.createClass({
-	render: function() {
+export default class SocialTwitter extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M492,109.5c-17.4,7.7-36,12.9-55.6,15.3c20-12,35.4-31,42.6-53.6c-18.7,11.1-39.4,19.2-61.5,23.5
 	C399.8,75.8,374.6,64,346.8,64c-53.5,0-96.8,43.4-96.8,96.9c0,7.6,0.8,15,2.5,22.1c-80.5-4-151.9-42.6-199.6-101.3
@@ -12,4 +12,4 @@ var SocialTwitter = React.createClass({
 	C462.6,146,479,129,492,109.5z"></path>
 </IconBase>;
 	}
-});
+};

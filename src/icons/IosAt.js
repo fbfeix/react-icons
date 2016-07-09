@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosAt = React.createClass({
-	render: function() {
+export default class IosAt extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M356,320c-9.7,13.3-29.9,28.5-38.1,33.1s-16.9,8.3-26,10.8c-9,2.5-18.6,3.9-28.4,3.9c-14.9,0-29.4-2.4-43-7.2
 	c-13.3-4.7-25.2-11.8-35.1-21c-9.9-9-20.3-24.2-26.5-38.5c-5.3-12.4-7.6-25.8-7.6-46.5c0-14.7,3.4-30.9,9.2-44.7
@@ -24,4 +24,4 @@ var IosAt = React.createClass({
 	c0.4,0.2,0.8,0.4,1.3,0.7l0.3,0.2c3.4,1.9,6.4,4.5,9,7.6c2,2.4,3.7,5.5,5,9.4L282,272.2C279,279.6,275.6,285.8,271.9,290.6z"></path>
 </IconBase>;
 	}
-});
+};

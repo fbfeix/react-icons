@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Transgender = React.createClass({
-	render: function() {
+export default class Transgender extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M368,0v40h69.873l-93.046,91.97c-8.529-8.249-15.132-12.586-15.132-12.586C308.841,104.694,283.422,96,256,96
 	c-34.525,0-65.86,13.669-88.903,35.894l-17.333-17.131l35.833-35.833L153.07,46.403l-36.022,36.021L74.127,40H144V0H0v144h40V67.806
@@ -12,4 +12,4 @@ var Transgender = React.createClass({
 	c0-44.211,35.923-80.18,80.079-80.18c44.155,0,80.078,35.969,80.078,80.18C336.007,268.435,300.084,304.402,255.929,304.402z"></path>
 </IconBase>;
 	}
-});
+};

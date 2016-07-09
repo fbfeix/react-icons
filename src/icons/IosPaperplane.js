@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPaperplane = React.createClass({
-	render: function() {
+export default class IosPaperplane extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="96,249.6 202,296.3 416,96 	"></polygon>
@@ -10,4 +10,4 @@ var IosPaperplane = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

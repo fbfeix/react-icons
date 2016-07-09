@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosBookmarks = React.createClass({
-	render: function() {
+export default class IosBookmarks extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M342.9,165.4l9.1-6.4l9.1,6.4l22.9,14.5V64c-20.7,0-44.5,0-64,0v115.9L342.9,165.4z"></path>
@@ -13,4 +13,4 @@ var IosBookmarks = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

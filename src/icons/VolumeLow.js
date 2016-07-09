@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var VolumeLow = React.createClass({
-	render: function() {
+export default class VolumeLow extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="311,407.7 311,104.4 216.2,192 112,192 112,320 216.2,320 	"></polygon>
@@ -11,4 +11,4 @@ var VolumeLow = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

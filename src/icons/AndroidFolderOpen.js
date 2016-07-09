@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidFolderOpen = React.createClass({
-	render: function() {
+export default class AndroidFolderOpen extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M437.334,144H256.006l-42.668-48H74.666C51.197,96,32,115.198,32,138.667v234.666C32,396.802,51.197,416,74.666,416h362.668
 	C460.803,416,480,396.802,480,373.333V186.667C480,163.198,460.803,144,437.334,144z M448,373.333
@@ -10,4 +10,4 @@ var AndroidFolderOpen = React.createClass({
 	V373.333z"></path>
 </IconBase>;
 	}
-});
+};

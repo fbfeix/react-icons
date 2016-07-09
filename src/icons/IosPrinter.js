@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPrinter = React.createClass({
-	render: function() {
+export default class IosPrinter extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="128" y="224" width="256" height="224"></rect>
@@ -17,4 +17,4 @@ var IosPrinter = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var TrashB = React.createClass({
-	render: function() {
+export default class TrashB extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M413.7,133.4c-2.4-9-4-14-4-14c-2.6-9.3-9.2-9.3-19-10.9l-53.1-6.7c-6.6-1.1-6.6-1.1-9.2-6.8c-8.7-19.6-11.4-31-20.9-31
@@ -13,4 +13,4 @@ var TrashB = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Levels = React.createClass({
-	render: function() {
+export default class Levels extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M127,99.2V80c0-8.8-7.2-16-16-16s-16,7.2-16,16v21.5c-8.5,5.8-14,15.5-14,26.5s5.5,20.7,14,26.5V432c0,8.8,7.2,16,16,16
@@ -16,4 +16,4 @@ var Levels = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

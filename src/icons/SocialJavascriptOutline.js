@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialJavascriptOutline = React.createClass({
-	render: function() {
+export default class SocialJavascriptOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g transform="translate(384 48)">
 	<g id="icon-javascript_1_1_">
@@ -27,4 +27,4 @@ var SocialJavascriptOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialCss3 = React.createClass({
-	render: function() {
+export default class SocialCss3 extends React.Component {
+	render() {
 		return <IconBase>
 <g transform="translate(336 96)">
 	<g id="icon-css3">
@@ -14,4 +14,4 @@ var SocialCss3 = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

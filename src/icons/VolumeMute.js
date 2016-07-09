@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var VolumeMute = React.createClass({
-	render: function() {
+export default class VolumeMute extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="255.9,217 191,217 191,295 255.9,295 303,346.3 303,165.7 	"></polygon>
@@ -14,4 +14,4 @@ var VolumeMute = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosGlasses = React.createClass({
-	render: function() {
+export default class IosGlasses extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M465.4,247c-2.2-22-12.4-43-28.9-58.4c-17.1-15.9-39.3-24.7-62.7-24.7c-41.5,0-77.3,27.4-88.5,67c-7-7-18.5-11.7-29.3-11.7
 	c-10.8,0-22.3,4.7-29.3,11.7c-11.2-39.6-47-67-88.5-67c-23.3,0-45.6,8.7-62.7,24.6C59,204,48.8,225,46.6,247H32v18h14.6
@@ -11,4 +11,4 @@ var IosGlasses = React.createClass({
 	H465.4z"></path>
 </IconBase>;
 	}
-});
+};

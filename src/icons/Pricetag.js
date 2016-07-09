@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Pricetag = React.createClass({
-	render: function() {
+export default class Pricetag extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M471,261.4L471,261.4C471,261.4,471,261.4,471,261.4L260.9,49.8c0,0,0,0,0,0l-1.5-1.5c0,0-0.4,0-0.4,0
@@ -13,4 +13,4 @@ var Pricetag = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

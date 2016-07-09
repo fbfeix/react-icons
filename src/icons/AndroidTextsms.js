@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidTextsms = React.createClass({
-	render: function() {
+export default class AndroidTextsms extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M408,64H96c-22.002,0-32,17.998-32,40v344l64-64h280c22.002,0,40-17.998,40-40V104C448,81.998,430.002,64,408,64z
@@ -10,4 +10,4 @@ var AndroidTextsms = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

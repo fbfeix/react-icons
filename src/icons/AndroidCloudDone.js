@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidCloudDone = React.createClass({
-	render: function() {
+export default class AndroidCloudDone extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M403.002,217.001C388.998,148.002,328.998,96,256,96c-57.998,0-107.998,32.998-132.998,81.001
@@ -12,4 +12,4 @@ var AndroidCloudDone = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Folder = React.createClass({
-	render: function() {
+export default class Folder extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M430.1,192H81.9c-17.7,0-18.6,9.2-17.6,20.5l13,183c0.9,11.2,3.5,20.5,21.1,20.5h316.2c18,0,20.1-9.2,21.1-20.5l12.1-185.3
@@ -14,4 +14,4 @@ var Folder = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

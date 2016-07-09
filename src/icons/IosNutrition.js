@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosNutrition = React.createClass({
-	render: function() {
+export default class IosNutrition extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M359,233.62l-0.106-0.039c-0.136-0.138-0.306-0.443-0.444-0.579L279.551,154h-0.004c-5.848-6-14.23-10.168-23.547-10.168
@@ -17,4 +17,4 @@ var IosNutrition = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

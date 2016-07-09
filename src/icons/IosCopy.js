@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCopy = React.createClass({
-	render: function() {
+export default class IosCopy extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="144,416 144,400 144,112 112,112 112,448 352,448 352,416 160,416 	"></polygon>
@@ -12,4 +12,4 @@ var IosCopy = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

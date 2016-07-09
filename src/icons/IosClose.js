@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosClose = React.createClass({
-	render: function() {
+export default class IosClose extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -16,4 +16,4 @@ var IosClose = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

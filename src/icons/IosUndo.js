@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosUndo = React.createClass({
-	render: function() {
+export default class IosUndo extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M447.9,368.2c0-16.8,3.6-83.1-48.7-135.7c-35.2-35.4-80.3-53.4-143.3-56.2V96L64,224l192,128v-79.8
@@ -10,4 +10,4 @@ var IosUndo = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

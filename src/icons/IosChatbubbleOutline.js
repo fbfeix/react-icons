@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosChatbubbleOutline = React.createClass({
-	render: function() {
+export default class IosChatbubbleOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,112c97,0,176,62,176,138.3c0,35.9-17.6,69.2-49.5,93.9c-32.8,25.4-77.4,39.3-125.5,39.3c-28.9,0-51-3-69.7-9.3
 	c-0.6-0.2-1.3-0.5-2-0.7c-0.3-0.1-0.6-0.2-0.8-0.2c-4.7-1.4-9.7-2.1-14.7-2.1c-5.6,0-11.1,0.9-16.3,2.6l0,0l-0.3,0.1
@@ -14,4 +14,4 @@ var IosChatbubbleOutline = React.createClass({
 	c0.5,0.2,1,0.3,1.5,0.5c23.1,7.9,48.4,10.3,75.1,10.3c106,0,191-64.1,191-149.3C448,165.1,362,96,256,96L256,96z"></path>
 </IconBase>;
 	}
-});
+};

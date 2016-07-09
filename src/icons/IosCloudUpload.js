@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCloudUpload = React.createClass({
-	render: function() {
+export default class IosCloudUpload extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="248" y="352" width="16" height="96"></rect>
@@ -13,4 +13,4 @@ var IosCloudUpload = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

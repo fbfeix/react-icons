@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Funnel = React.createClass({
-	render: function() {
+export default class Funnel extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256.085,32c-123.79,0-224.096,35.817-224.096,80c0,8.476,3.729,16.642,10.573,24.309l-0.061,0.008
@@ -12,4 +12,4 @@ var Funnel = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

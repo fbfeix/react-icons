@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SoupCanOutline = React.createClass({
-	render: function() {
+export default class SoupCanOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M255.82,144c88.269,0,159.824-28.654,159.824-64S344.089,16,255.82,16C167.552,16,95.997,44.654,95.997,80
@@ -28,4 +28,4 @@ var SoupCanOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

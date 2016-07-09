@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosColorWand = React.createClass({
-	render: function() {
+export default class IosColorWand extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="198.011,159.22 163.968,193.337 420.064,450 454,415.883 	"></polygon>
@@ -16,4 +16,4 @@ var IosColorWand = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

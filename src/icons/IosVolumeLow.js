@@ -1,10 +1,10 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosVolumeLow = React.createClass({
-	render: function() {
+export default class IosVolumeLow extends React.Component {
+	render() {
 		return <IconBase>
 <polygon points="249.9,216 192,216 192,296 249.9,296 320,352 320,160 "></polygon>
 </IconBase>;
 	}
-});
+};

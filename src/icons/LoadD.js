@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var LoadD = React.createClass({
-	render: function() {
+export default class LoadD extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M432,240h-80c-8.8,0-16,7.2-16,16s7.2,16,16,16h80c8.8,0,16-7.2,16-16S440.8,240,432,240z"></path>
@@ -28,4 +28,4 @@ var LoadD = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

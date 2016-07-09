@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Earth = React.createClass({
-	render: function() {
+export default class Earth extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M357.275,125.525c-2.209-3.986-9.498-11.837-13.977-13.325c-5.979-0.921-2.398,4.413-2.398,6.7
@@ -43,4 +43,4 @@ var Earth = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

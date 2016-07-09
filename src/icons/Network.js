@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Network = React.createClass({
-	render: function() {
+export default class Network extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M448,96c0-35.29-28.71-64-64-64s-64,28.71-64,64c0,23.637,12.89,44.307,32,55.391v52.832l-96,48l-96-48v-52.832
 	c19.11-11.084,32-31.754,32-55.391c0-35.29-28.71-64-64-64S64,60.71,64,96c0,23.637,12.89,44.307,32,55.391v92.387l128,64v52.832
@@ -12,4 +12,4 @@ var Network = React.createClass({
 	s14.327-32,32-32s32,14.327,32,32S401.673,128,384,128z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Lightbulb = React.createClass({
-	render: function() {
+export default class Lightbulb extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,32c-70.7,0-128,55.4-128,123.8c0,4.9,0.3,9.7,0.9,14.5c0.6,5.4,1.6,10.6,3,15.7c0.1,0.5,0.3,1.1,0.4,1.6
@@ -21,4 +21,4 @@ var Lightbulb = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

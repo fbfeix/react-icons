@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Loop = React.createClass({
-	render: function() {
+export default class Loop extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M273.4,300.5l-0.3,58c48.9-8.2,86.3-51,86.3-102.5c0-15.9-3.6-31-10-44.5c-2.8-5.8-6-11.3-9.8-16.5l47.1-43.5
@@ -14,4 +14,4 @@ var Loop = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

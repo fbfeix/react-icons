@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialChrome = React.createClass({
-	render: function() {
+export default class SocialChrome extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M188.8,255.925c0,36.946,30.243,67.178,67.2,67.178s67.199-30.231,67.199-67.178c0-36.945-30.242-67.179-67.199-67.179
@@ -22,4 +22,4 @@ var SocialChrome = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

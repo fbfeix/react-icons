@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialEuroOutline = React.createClass({
-	render: function() {
+export default class SocialEuroOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M310.143,64c31.337,0,59.096,2.607,88.137,8.364l-5.06,34.148c-29.405-4.319-55.659-6.429-79.853-6.429
@@ -19,4 +19,4 @@ var SocialEuroOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

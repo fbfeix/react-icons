@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPulse = React.createClass({
-	render: function() {
+export default class IosPulse extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M448,288c-15.268,0-28.029,10.695-31.223,25h-59.004l-30.181-90.896c-1.105-3.329-4.246-5.543-7.759-5.478
 	c-3.508,0.072-6.559,2.422-7.524,5.795L258.067,411.74L199.892,62.685c-0.624-3.74-3.787-6.528-7.576-6.679
@@ -12,4 +12,4 @@ var IosPulse = React.createClass({
 	S465.674,288,448,288z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosMoreOutline = React.createClass({
-	render: function() {
+export default class IosMoreOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,238c9.9,0,18,8.1,18,18s-8.1,18-18,18s-18-8.1-18-18S246.1,238,256,238 M256,224c-17.7,0-32,14.3-32,32s14.3,32,32,32
@@ -14,4 +14,4 @@ var IosMoreOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

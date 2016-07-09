@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Pin = React.createClass({
-	render: function() {
+export default class Pin extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M331.8,228C331.8,228,331.8,228,331.8,228c-1.2-0.5-2.4-1-3.5-1.7c-7-4-12.2-10.9-13.9-19.2L295.9,89.4l-0.2-5.8
 	c0-7.1,4.1-10.2,10-13l0,0c0.7-0.3,1.4-0.6,2.1-0.9c7.2-3.4,12.1-7.8,12.1-16.3c0-20.1-6.5-21.4-18.2-21.4h-91.3
@@ -11,4 +11,4 @@ var Pin = React.createClass({
 	c0,15.9,3.5,21.3,15.2,21.3H240l12,176h8l12-176h80.8c11.7,0,15.2-4.7,15.2-21.3C368,258.8,351.5,238.2,331.8,228z"></path>
 </IconBase>;
 	}
-});
+};

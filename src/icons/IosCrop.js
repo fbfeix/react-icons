@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCrop = React.createClass({
-	render: function() {
+export default class IosCrop extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="128" y="64" width="16" height="48"></rect>
@@ -12,4 +12,4 @@ var IosCrop = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

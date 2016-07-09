@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ConnectionBars = React.createClass({
-	render: function() {
+export default class ConnectionBars extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="80" y="352" width="64" height="64"></rect>
@@ -12,4 +12,4 @@ var ConnectionBars = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

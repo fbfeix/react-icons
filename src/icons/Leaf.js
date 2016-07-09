@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Leaf = React.createClass({
-	render: function() {
+export default class Leaf extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M456.7,378.7c-52.5-8-56.5-15.7-56.5-15.7c10.8-64.9-22.7-147.1-77.4-191.6c-72.8-59.2-183.5-16.2-269.7-106.2
@@ -12,4 +12,4 @@ var Leaf = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

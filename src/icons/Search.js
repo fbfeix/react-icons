@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Search = React.createClass({
-	render: function() {
+export default class Search extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M445,386.7l-84.8-85.9c13.8-24.1,21-50.9,21-77.9c0-87.6-71.2-158.9-158.6-158.9C135.2,64,64,135.3,64,222.9
 	c0,87.6,71.2,158.9,158.6,158.9c27.9,0,55.5-7.7,80.1-22.4l84.4,85.6c1.9,1.9,4.6,3.1,7.3,3.1c2.7,0,5.4-1.1,7.3-3.1l43.3-43.8
@@ -10,4 +10,4 @@ var Search = React.createClass({
 	C125.8,169.4,169.2,125.9,222.6,125.9z"></path>
 </IconBase>;
 	}
-});
+};

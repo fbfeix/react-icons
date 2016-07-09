@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var TshirtOutline = React.createClass({
-	render: function() {
+export default class TshirtOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M178.249,85.534c18.761,22.976,43.909,34.009,77.445,34.572l0.269-0.106h0.269c22.638,0,41.169-4.861,56.653-15.091
 	c7.801-5.154,14.721-11.47,21.029-19.382l104.461,31.367L426.59,149.41l-38.743-4.685l-37.912-4.589l2.114,38.133L366.176,433
@@ -11,4 +11,4 @@ var TshirtOutline = React.createClass({
 	L480,96L320,48L320,48z"></path>
 </IconBase>;
 	}
-});
+};

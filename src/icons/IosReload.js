@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosReload = React.createClass({
-	render: function() {
+export default class IosReload extends React.Component {
+	render() {
 		return <IconBase>
 <g id="PL_x5F_Reset_1_">
 	<path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
@@ -11,4 +11,4 @@ var IosReload = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

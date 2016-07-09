@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialAngularOutline = React.createClass({
-	render: function() {
+export default class SocialAngularOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M255.982,64l187.967,69.105l-39.17,230.389l-148.881,79.949l-148.812-80.051L68.031,133.11L255.982,64 M255.981,32L32,112
@@ -11,4 +11,4 @@ var SocialAngularOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

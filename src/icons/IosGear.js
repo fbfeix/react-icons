@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosGear = React.createClass({
-	render: function() {
+export default class IosGear extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M416.349,256.046c-0.001-21.013,13.143-38.948,31.651-46.062c-4.887-20.466-12.957-39.7-23.664-57.139
 	c-6.375,2.836-13.23,4.254-20.082,4.254c-12.621,0-25.238-4.811-34.871-14.442c-14.863-14.863-18.248-36.846-10.18-54.97
@@ -17,4 +17,4 @@ var IosGear = React.createClass({
 	c0-44.101,35.7-80,80-80c44.299,0,80,35.899,80,80C336.9,300,301.199,335.9,256.9,335.9z"></path>
 </IconBase>;
 	}
-});
+};

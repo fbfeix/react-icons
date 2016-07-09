@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidVolumeOff = React.createClass({
-	render: function() {
+export default class AndroidVolumeOff extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M405.5,256c0,22.717-4.883,44.362-13.603,63.855l31.88,31.88C439.283,323.33,448,290.653,448,256
@@ -15,4 +15,4 @@ var AndroidVolumeOff = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

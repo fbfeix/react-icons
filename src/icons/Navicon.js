@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Navicon = React.createClass({
-	render: function() {
+export default class Navicon extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="96" y="241" width="320" height="32"></rect>
@@ -11,4 +11,4 @@ var Navicon = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

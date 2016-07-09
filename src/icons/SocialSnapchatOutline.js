@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialSnapchatOutline = React.createClass({
-	render: function() {
+export default class SocialSnapchatOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256.283,47.553c70.693,0,128,54.682,118,128.931c-2.072,15.388-3.422,31.483-4.26,44.759c0,0,2.402,4.253,12.664,4.253
@@ -42,4 +42,4 @@ var SocialSnapchatOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

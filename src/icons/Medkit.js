@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Medkit = React.createClass({
-	render: function() {
+export default class Medkit extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M472.2,144H352v-30.7C351,85.1,330.3,64,300.8,64H256h-44.8c-29.4,0-50.2,21.1-51.2,49.3V144H39.8c-4.4,0-7.8,3.6-7.8,8
@@ -12,4 +12,4 @@ var Medkit = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

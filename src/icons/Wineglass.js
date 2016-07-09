@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Wineglass = React.createClass({
-	render: function() {
+export default class Wineglass extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M294.9,295.4c11-4.1,18-6.9,26.2-11.7c12-6.9,22.8-15.8,31.9-26.1c20.4-22.9,31-51.1,31-86.1c0-49.9-3.7-101.1-8.1-114.7
@@ -21,4 +21,4 @@ var Wineglass = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

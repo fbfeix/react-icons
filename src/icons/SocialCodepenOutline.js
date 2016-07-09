@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialCodepenOutline = React.createClass({
-	render: function() {
+export default class SocialCodepenOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path fill-rule="evenodd" clip-rule="evenodd" d="M387.547,203.724c-41.135-27.326-82.225-54.721-123.261-82.195
@@ -26,4 +26,4 @@ var SocialCodepenOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

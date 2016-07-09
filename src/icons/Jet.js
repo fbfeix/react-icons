@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Jet = React.createClass({
-	render: function() {
+export default class Jet extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -14,4 +14,4 @@ var Jet = React.createClass({
 	l18.5-54.6l73.4,9.1l18.3-27.4l-52.7-58.3L314.8,368.5z"></path>
 </IconBase>;
 	}
-});
+};

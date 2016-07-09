@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCopyOutline = React.createClass({
-	render: function() {
+export default class IosCopyOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="304,96 288,96 288,176 368,176 368,160 304,160 	"></polygon>
@@ -11,4 +11,4 @@ var IosCopyOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

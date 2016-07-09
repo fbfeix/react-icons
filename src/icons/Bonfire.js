@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Bonfire = React.createClass({
-	render: function() {
+export default class Bonfire extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M270.93,350.601C270.219,342.42,263.364,336,255,336c-7.635,0-14.01,5.352-15.605,12.506l-0.007-0.002l-15.612,92.502
@@ -31,4 +31,4 @@ var Bonfire = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

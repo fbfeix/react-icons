@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Scissors = React.createClass({
-	render: function() {
+export default class Scissors extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M405.178,115.667c13.314-32.667,17.309-64-5.326-83.667L255.726,224l-16.976,23c0,0-27.627,40.011-37.28,58.667
@@ -23,4 +23,4 @@ var Scissors = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialWordpress = React.createClass({
-	render: function() {
+export default class SocialWordpress extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M259,271.3L226.2,367h-0.1l-25.4,73.1c1.8,0.5,3.5,0.9,5.3,1.4c0.1,0,0.2,0,0.3,0c15.8,4.2,32.4,6.5,49.5,6.5
@@ -20,4 +20,4 @@ var SocialWordpress = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

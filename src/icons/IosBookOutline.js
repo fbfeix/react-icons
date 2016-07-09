@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosBookOutline = React.createClass({
-	render: function() {
+export default class IosBookOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M347.621,64c-40.941,0-79.121,14-91.578,44.495C242.5,78,205.408,64,164.466,64C109.265,64,64,89.98,64,143v1v8.995V417v9
 	h6.215h10.958h4.967c12.86-26.334,44.238-42,78.325-42c40.224,0,73.877,27.528,81.617,64h19.714c7.739-36.472,41.495-64,81.722-64
@@ -13,4 +13,4 @@ var IosBookOutline = React.createClass({
 	C391.79,80,429,91.175,432,133v1V148z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosStopwatchOutline = React.createClass({
-	render: function() {
+export default class IosStopwatchOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M397.6,146.7l-1.8-1.7h18.4l8.5,7.8l22.5-22.8l-40.8-40.3L381.2,112l8.8,9.2v18.6l-5-4.7c-31.3-28.3-70-45.2-113-48.9V48
@@ -15,4 +15,4 @@ var IosStopwatchOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

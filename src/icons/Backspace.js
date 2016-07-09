@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Backspace = React.createClass({
-	render: function() {
+export default class Backspace extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M498.941,93.559C490.037,84.654,478.696,80,465.875,80H168c-24.303,0-43.717,9.402-57.706,28.441L0,255.938l110.4,146.528
@@ -17,4 +17,4 @@ var Backspace = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

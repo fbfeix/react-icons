@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Speedometer = React.createClass({
-	render: function() {
+export default class Speedometer extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M344,256l-84.4,64.2c-1.2-0.1-2.4-0.2-3.6-0.2c-17.7,0-32,14.3-32,32c0,17.7,14.3,32,32,32c17.7,0,32-14.3,32-32
@@ -15,4 +15,4 @@ var Speedometer = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

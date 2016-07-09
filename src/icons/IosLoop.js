@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosLoop = React.createClass({
-	render: function() {
+export default class IosLoop extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="489.373,256 448,297.373 405.627,256 394.813,266.813 448,320 500.687,267.313 	"></polygon>
@@ -22,4 +22,4 @@ var IosLoop = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

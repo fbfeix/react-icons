@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialVimeoOutline = React.createClass({
-	render: function() {
+export default class SocialVimeoOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M476.9,114c-5-23.4-17.5-38.8-40.6-46.3c-7.4-2.4-16.7-3.7-26.9-3.7c-21.7,0-47.4,6-67.2,20.5
 	c-29.9,21.8-47.6,59.7-53.8,83.8c12.2-5.3,20.8-7.1,31.9-7.1c2.2,0,4.6,0.1,7.1,0.2c15,0.8,24.5,12,24.9,25.3
@@ -23,4 +23,4 @@ var SocialVimeoOutline = React.createClass({
 	C467.2,145.1,463.4,174.2,450,203.9z"></path>
 </IconBase>;
 	}
-});
+};

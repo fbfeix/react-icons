@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Thermometer = React.createClass({
-	render: function() {
+export default class Thermometer extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M303,335.6V78.4c0-25.7-21-46.5-47-46.5c-26,0-47,20.8-47,46.5v256.8c-20,14.5-32.9,38.2-32.9,64.9c0,44.2,36,80,80.2,80
@@ -11,4 +11,4 @@ var Thermometer = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

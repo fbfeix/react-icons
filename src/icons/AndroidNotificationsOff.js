@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidNotificationsOff = React.createClass({
-	render: function() {
+export default class AndroidNotificationsOff extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,463.656c22.814,0,41.475-18.656,41.475-41.656h-82.95C214.525,445,233.186,463.656,256,463.656z"></path>
@@ -13,4 +13,4 @@ var AndroidNotificationsOff = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

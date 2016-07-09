@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosBriefcaseOutline = React.createClass({
-	render: function() {
+export default class IosBriefcaseOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M416,128v-16h-32v16h-48V98.1V96c-0.5-18.2-13.6-32-32.2-32h-99.1C186.1,64,176,77.7,176,96v2.1V128h-48v-16H96v16H48v320
@@ -11,4 +11,4 @@ var IosBriefcaseOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

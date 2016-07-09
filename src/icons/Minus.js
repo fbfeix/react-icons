@@ -1,10 +1,10 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Minus = React.createClass({
-	render: function() {
+export default class Minus extends React.Component {
+	render() {
 		return <IconBase>
 <rect x="64" y="224" width="384" height="64"></rect>
 </IconBase>;
 	}
-});
+};

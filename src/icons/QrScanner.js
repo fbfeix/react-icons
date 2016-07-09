@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var QrScanner = React.createClass({
-	render: function() {
+export default class QrScanner extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M96,124.171c0-6.938,5.232-12.171,12.171-12.171H176V64h-66.829C75.717,64,48,90.717,48,124.171V192h48V124.171z"></path>
@@ -12,4 +12,4 @@ var QrScanner = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

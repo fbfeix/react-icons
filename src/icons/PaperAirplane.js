@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var PaperAirplane = React.createClass({
-	render: function() {
+export default class PaperAirplane extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -13,4 +13,4 @@ var PaperAirplane = React.createClass({
 	l322-172.5L350.7,417.4z"></path>
 </IconBase>;
 	}
-});
+};

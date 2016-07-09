@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidCart = React.createClass({
-	render: function() {
+export default class AndroidCart extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path fill="#010101" d="M169.6,377.6c-22.882,0-41.6,18.718-41.6,41.601c0,22.882,18.718,41.6,41.6,41.6s41.601-18.718,41.601-41.6
@@ -14,4 +14,4 @@ var AndroidCart = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

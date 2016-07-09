@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosLightbulbOutline = React.createClass({
-	render: function() {
+export default class IosLightbulbOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M400,172.9C400,95.1,333.9,32,256,32c-77.9,0-144,63.1-144,141c0,31,13.2,59,30.2,83h-0.3c10.9,15,21.4,27.7,31.5,45
@@ -17,4 +17,4 @@ var IosLightbulbOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

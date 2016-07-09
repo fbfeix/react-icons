@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Pound = React.createClass({
-	render: function() {
+export default class Pound extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M125.2,352.3H32v-54.6h101.2l13.1-83.3H47v-54.6h107.2L176,32h63.9l-21.8,127.7h105.6L345.5,32h63.1l-21.8,127.7H480v54.6
@@ -11,4 +11,4 @@ var Pound = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

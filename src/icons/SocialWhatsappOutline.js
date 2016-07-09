@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialWhatsappOutline = React.createClass({
-	render: function() {
+export default class SocialWhatsappOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path fill-rule="evenodd" clip-rule="evenodd" d="M209.877,154.114c-4.258-11.323-9.176-10.515-12.45-10.639
@@ -25,4 +25,4 @@ var SocialWhatsappOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

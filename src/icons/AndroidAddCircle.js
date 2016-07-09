@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidAddCircle = React.createClass({
-	render: function() {
+export default class AndroidAddCircle extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<g>
@@ -12,4 +12,4 @@ var AndroidAddCircle = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

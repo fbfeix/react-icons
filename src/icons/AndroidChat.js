@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidChat = React.createClass({
-	render: function() {
+export default class AndroidChat extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M391.553,64H57.607C53.131,64,48,67.745,48,72.159v214.217c0,4.413,5.131,8.624,9.607,8.624H115v88.894L205.128,295
@@ -12,4 +12,4 @@ var AndroidChat = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

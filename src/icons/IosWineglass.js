@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosWineglass = React.createClass({
-	render: function() {
+export default class IosWineglass extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M264,308.988c0-21.975,20.458-38.674,40.247-54.824c7.907-6.453,15.37-12.547,21.519-18.962
 	C352.313,207.505,352,183.458,352,164.144V160c0-44.25-30.816-124.558-32.02-128H256h-64c-1.203,3.442-32,83.5-32,128v4.144
@@ -11,4 +11,4 @@ var IosWineglass = React.createClass({
 	C183.221,110.712,197.37,63.99,202.729,48z"></path>
 </IconBase>;
 	}
-});
+};

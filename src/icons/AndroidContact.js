@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidContact = React.createClass({
-	render: function() {
+export default class AndroidContact extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M331.08,338.205c-22.156,12.594-47.777,19.783-75.084,19.783c-27.302,0-52.919-7.182-75.073-19.771
@@ -15,4 +15,4 @@ var AndroidContact = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

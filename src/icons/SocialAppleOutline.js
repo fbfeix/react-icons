@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialAppleOutline = React.createClass({
-	render: function() {
+export default class SocialAppleOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M333.6,169.9c16.3,0,33.2,7.4,47.4,20.4c-9.9,8.5-17.9,18.7-23.7,30.2c-8,16-11.6,34.3-10.2,52.7
@@ -20,4 +20,4 @@ var SocialAppleOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

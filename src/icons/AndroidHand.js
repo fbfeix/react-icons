@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidHand = React.createClass({
-	render: function() {
+export default class AndroidHand extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M450.679,273.5c-14.585-14.577-36.054-15.89-50.639-1.312l-41.687,41.664c-10.852,10.836-23.93,10.859-31.564,1.852
 	c-5.057-5.968-3.061-24.374-1.644-36.049l20.907-171.849c1.867-15.353-9.07-30.185-24.43-32.051
@@ -15,4 +15,4 @@ var AndroidHand = React.createClass({
 	c0.001,0,0.003-0.002,0.003-0.002c29.99-18.051,126.071-121.347,126.071-121.347C467.445,310.402,465.266,288.08,450.679,273.5z"></path>
 </IconBase>;
 	}
-});
+};

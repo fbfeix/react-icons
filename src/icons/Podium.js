@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Podium = React.createClass({
-	render: function() {
+export default class Podium extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="32" y="256" width="128" height="192"></rect>
@@ -11,4 +11,4 @@ var Podium = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

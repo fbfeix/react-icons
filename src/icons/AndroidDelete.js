@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidDelete = React.createClass({
-	render: function() {
+export default class AndroidDelete extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M128,405.429C128,428.846,147.198,448,170.667,448h170.667C364.802,448,384,428.846,384,405.429V160H128V405.429z M416,96
@@ -10,4 +10,4 @@ var AndroidDelete = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

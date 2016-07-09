@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialInstagram = React.createClass({
-	render: function() {
+export default class SocialInstagram extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<circle cx="256" cy="255.833" r="80"></circle>
@@ -18,4 +18,4 @@ var SocialInstagram = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

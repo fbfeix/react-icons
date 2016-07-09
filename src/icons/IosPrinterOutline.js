@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPrinterOutline = React.createClass({
-	render: function() {
+export default class IosPrinterOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M432.5,112H400V64H112v48H80.5C62.9,112,48,125.8,48,143.3v158.4c0,17.5,14.9,32.3,32.5,32.3H128v114h256V334h48.5
@@ -12,4 +12,4 @@ var IosPrinterOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

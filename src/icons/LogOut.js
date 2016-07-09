@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var LogOut = React.createClass({
-	render: function() {
+export default class LogOut extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="366.863,323.883 389.49,346.51 480,256 389.49,165.49 366.862,188.118 418.745,240 192,240 192,272 418.745,272 	
@@ -17,4 +17,4 @@ var LogOut = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

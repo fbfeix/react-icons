@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosGridView = React.createClass({
-	render: function() {
+export default class IosGridView extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="192" y="192" width="128" height="128"></rect>
@@ -11,4 +11,4 @@ var IosGridView = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

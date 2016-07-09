@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ArrowShrink = React.createClass({
-	render: function() {
+export default class ArrowShrink extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="448,92.3 366.1,174.1 416,224 288,224 288,96 337.9,145.9 419.7,64 	"></polygon>
@@ -12,4 +12,4 @@ var ArrowShrink = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

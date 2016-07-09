@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Clock = React.createClass({
-	render: function() {
+export default class Clock extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M255.988,32C132.285,32,32,132.298,32,256c0,123.715,100.285,224,223.988,224C379.703,480,480,379.715,480,256
@@ -21,4 +21,4 @@ var Clock = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

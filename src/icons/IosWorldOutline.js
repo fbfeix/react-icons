@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosWorldOutline = React.createClass({
-	render: function() {
+export default class IosWorldOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,48c-0.1,0-0.1,0-0.2,0c0,0,0,0-0.1,0c-0.1,0-0.2,0-0.2,0C140.8,48.3,48,141.3,48,256c0,114.7,92.8,207.7,207.5,208
 	c0.1,0,0.2,0,0.2,0c0,0,0.1,0,0.1,0c0.1,0,0.1,0,0.2,0c114.9,0,208-93.1,208-208C464,141.1,370.9,48,256,48z M264.3,172.5
@@ -22,4 +22,4 @@ var IosWorldOutline = React.createClass({
 	c18.3,5.5,35.7,12.8,52.3,21.6C367.7,415.2,336,433.6,300.6,442.1z"></path>
 </IconBase>;
 	}
-});
+};

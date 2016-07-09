@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var PersonStalker = React.createClass({
-	render: function() {
+export default class PersonStalker extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M425.3,324.8c-41.4-15.7-38.9-9.4-38.9-38.5c0-18.8,9.3-11.9,15.2-47.7c2.3-14.1,4.2-4.7,9.1-27.3
@@ -18,4 +18,4 @@ var PersonStalker = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

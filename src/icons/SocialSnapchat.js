@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialSnapchat = React.createClass({
-	render: function() {
+export default class SocialSnapchat extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M495.998,360.389l-0.189-14.501l-14.398-1.278c-15.413-1.396-43.8-7.219-54.301-16.9
@@ -31,4 +31,4 @@ var SocialSnapchat = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

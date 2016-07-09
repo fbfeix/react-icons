@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCartOutline = React.createClass({
-	render: function() {
+export default class IosCartOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M160,400c-13.248,0-24,10.752-24,24s10.752,24,24,24s24-10.752,24-24S173.248,400,160,400z M160,432c-4.411,0-8-3.589-8-8
@@ -16,4 +16,4 @@ var IosCartOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

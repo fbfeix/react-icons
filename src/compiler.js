@@ -42,10 +42,11 @@ function storeIcon(name, svgContent, exportFolder) {
 
     name = translateName(name);
 
-    var data = "var React = require('react');\r\nvar IconBase = require(__dirname + '/../components/IconBase/IconBase');\r\n\r\n";
+    var data = "import React from 'react';\r\nimport IconBase from './../components/IconBase/IconBase';\r\n\r\n";
 
-    data += "var "+ name + " = React.createClass({\r\n\trender: function() {\r\n\t\treturn ";
-    data += "<IconBase>" + svgContent + "</IconBase>;\r\n\t}\r\n});";
+    data += "export default class "+ name + " extends React.Component {\r\n\trender() {\r\n\t\treturn ";
+    data += "<IconBase>" + svgContent + "</IconBase>;\r\n\t}\r\n};";
+    
 
     fs.writeFile(exportFolder + "/" + name + ".js", data, function(err) {
         if(err)

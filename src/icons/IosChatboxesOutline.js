@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosChatboxesOutline = React.createClass({
-	render: function() {
+export default class IosChatboxesOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="64,64 320,64 320,160 336,160 336,48 48,48 48,272 160,272 160,256 64,256 	"></polygon>
@@ -10,4 +10,4 @@ var IosChatboxesOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

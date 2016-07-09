@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosBarcodeOutline = React.createClass({
-	render: function() {
+export default class IosBarcodeOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="48,384 128,384 128,368 64,368 64,144 128,144 128,128 48,128 	"></polygon>
@@ -15,4 +15,4 @@ var IosBarcodeOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialSass = React.createClass({
-	render: function() {
+export default class SocialSass extends React.Component {
+	render() {
 		return <IconBase>
 <path fill="#231F20" d="M511.784,329.108c-1.67-13.599-9.236-24.146-20.795-32.416c2.857,2.04,5.275,3.766-0.055-0.041
 	c-7.189-5.131-3.38-2.411-0.047-0.032c-28.5-20.301-65.676-15.789-96.733-4.511c-12.447-20.295-12.987-35.783-5.816-57.937
@@ -35,4 +35,4 @@ var SocialSass = React.createClass({
 	z"></path>
 </IconBase>;
 	}
-});
+};

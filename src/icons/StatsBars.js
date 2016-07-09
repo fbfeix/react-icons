@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var StatsBars = React.createClass({
-	render: function() {
+export default class StatsBars extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect x="176" y="96" width="64" height="320"></rect>
@@ -12,4 +12,4 @@ var StatsBars = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

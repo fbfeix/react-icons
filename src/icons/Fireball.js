@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Fireball = React.createClass({
-	render: function() {
+export default class Fireball extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M393.267,238.088l-0.231,10.404c-0.814,11.65-3.797,31.912-14.102,54.736c3.251-15.208,4.978-30.982,4.978-47.164
@@ -16,4 +16,4 @@ var Fireball = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

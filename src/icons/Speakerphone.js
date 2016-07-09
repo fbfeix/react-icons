@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Speakerphone = React.createClass({
-	render: function() {
+export default class Speakerphone extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M70.9,181.5c0-41,25-76.5,60.6-91.5h-7.7c-41.1,0-75.1,32.8-81.1,75.2c-6,1-10.7,7.9-10.7,16.1c0,8.6,5.1,15.4,11.6,15.9
@@ -19,4 +19,4 @@ var Speakerphone = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

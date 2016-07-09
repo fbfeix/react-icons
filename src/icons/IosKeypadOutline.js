@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosKeypadOutline = React.createClass({
-	render: function() {
+export default class IosKeypadOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M394.6,341.2c-29.5,0-53.4,23.9-53.4,53.4s23.9,53.4,53.4,53.4c29.5,0,53.4-23.9,53.4-53.4S424.1,341.2,394.6,341.2z
@@ -27,4 +27,4 @@ var IosKeypadOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPaperOutline = React.createClass({
-	render: function() {
+export default class IosPaperOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M112,64v16v320h16V80h304v337.143c0,8.205-6.652,14.857-14.857,14.857H94.857C86.652,432,80,425.348,80,417.143V128h16v-16
@@ -14,4 +14,4 @@ var IosPaperOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

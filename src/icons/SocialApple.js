@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialApple = React.createClass({
-	render: function() {
+export default class SocialApple extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M333.6,153.9c-33.6,0-47.8,16.5-71.2,16.5c-24,0-42.3-16.4-71.4-16.4c-28.5,0-58.9,17.9-78.2,48.4
@@ -14,4 +14,4 @@ var SocialApple = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

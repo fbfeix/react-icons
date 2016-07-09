@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosTimerOutline = React.createClass({
-	render: function() {
+export default class IosTimerOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M236.6,271.6c4.6,5.7,11.5,9.4,19.4,9.4c13.8,0,25-11.2,25-25c0-7.3-3.2-13.8-8.2-18.4c-0.6-0.7-1.3-1.5-2.2-2.2
 	c0,0-117.7-87.5-120.3-85.2c-2.6,2.3,85.3,120.2,85.3,120.2C235.8,270.8,236.3,271.2,236.6,271.6z"></path>
@@ -11,4 +11,4 @@ var IosTimerOutline = React.createClass({
 	c114.9,0,208-93.1,208-208C464,141.1,371,48,256.2,48z"></path>
 </IconBase>;
 	}
-});
+};

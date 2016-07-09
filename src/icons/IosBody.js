@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosBody = React.createClass({
-	render: function() {
+export default class IosBody extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<circle cx="256" cy="79.838" r="48"></circle>
@@ -17,4 +17,4 @@ var IosBody = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

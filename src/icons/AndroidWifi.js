@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidWifi = React.createClass({
-	render: function() {
+export default class AndroidWifi extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,228.719c-22.879,0-41.597,18.529-41.597,41.18c0,22.652,18.718,41.182,41.597,41.182
 	c22.878,0,41.597-18.529,41.597-41.182C297.597,247.248,278.878,228.719,256,228.719z M380.8,269.898
@@ -14,4 +14,4 @@ var AndroidWifi = React.createClass({
 	c62.406-36.032,104-101.915,104-178.102C464,156.654,370.403,64,256,64z"></path>
 </IconBase>;
 	}
-});
+};

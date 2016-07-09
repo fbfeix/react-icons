@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialGoogle = React.createClass({
-	render: function() {
+export default class SocialGoogle extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M325.862,275.558l-18.187-13.653l-0.063-0.051c-5.827-4.579-9.952-8.313-9.952-14.685c0-6.979,5.049-11.824,10.896-17.436
@@ -20,4 +20,4 @@ var SocialGoogle = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

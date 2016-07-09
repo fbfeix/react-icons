@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosSnowy = React.createClass({
-	render: function() {
+export default class IosSnowy extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -26,4 +26,4 @@ var IosSnowy = React.createClass({
 	c-1.6-8-1.6-15.8,0.4-23.9l28.8,16.3c3.9,2.2,8.9,0.9,11.1-2.9C385.2,324.1,383.8,319.2,379.9,317z"></path>
 </IconBase>;
 	}
-});
+};

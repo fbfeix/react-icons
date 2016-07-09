@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialOctocat = React.createClass({
-	render: function() {
+export default class SocialOctocat extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path fill="#231F20" d="M178.354,287.478c-9.123,0-16.928,4.207-23.201,12.833c-6.291,8.478-9.398,18.973-9.398,31.431
@@ -28,4 +28,4 @@ var SocialOctocat = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

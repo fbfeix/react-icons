@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Plane = React.createClass({
-	render: function() {
+export default class Plane extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M281.7,311.9c0.4-6.9,8.3-4.5,8.3-4.5l62,12.6l128,48.7c0-24-3.8-26.5-9.4-30.7L288,207c0,0-4.9-60-4.9-112.9
 	c0-24.5-11.8-78.1-27.1-78.1s-27.1,54.4-27.1,78.1c0,50.2-4.9,112.9-4.9,112.9L41.4,338c-7.1,5-9.4,7.7-9.4,30.7L160,320l61.9-12.6
@@ -10,4 +10,4 @@ var Plane = React.createClass({
 	l12-32l68,16l-1-18.5c0.1,0-0.7-5.4-2.4-7.3l-51.9-32.8c-2.3-2.7-5.7-3-4.8-7.4C282.7,381,281.3,318.8,281.7,311.9z"></path>
 </IconBase>;
 	}
-});
+};

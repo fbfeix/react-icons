@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialInstagramOutline = React.createClass({
-	render: function() {
+export default class SocialInstagramOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path fill="#231F20" d="M448.5,112c0-26.233-21.267-47.5-47.5-47.5H112c-26.233,0-47.5,21.267-47.5,47.5v289
 	c0,26.233,21.267,47.5,47.5,47.5h289c26.233,0,47.5-21.267,47.5-47.5V112z M257,175.833c44.182,0,80,35.816,80,80s-35.818,80-80,80
@@ -12,4 +12,4 @@ var SocialInstagramOutline = React.createClass({
 	S369,286.016,369,256.099c0-10.936-1.563-21.599-4.572-31.599H416.5v175C416.5,408.322,410.322,416.5,401.5,416.5z"></path>
 </IconBase>;
 	}
-});
+};

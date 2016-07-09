@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ErlenmeyerFlask = React.createClass({
-	render: function() {
+export default class ErlenmeyerFlask extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M438.815,395.7L338.509,246.2c-12.8-20.3-19.009-44.4-19.009-70.2c0,0,0-73.5,0-93s12.592-33.25,15.009-42.083
@@ -21,4 +21,4 @@ var ErlenmeyerFlask = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

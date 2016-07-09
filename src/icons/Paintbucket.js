@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Paintbucket = React.createClass({
-	render: function() {
+export default class Paintbucket extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M128,64l39.667,72.102L16,288l197.604,192l163.328-160l58.33-12.307L160,32L128,64z M325.131,288H104.857L215,177.863
@@ -12,4 +12,4 @@ var Paintbucket = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Pinpoint = React.createClass({
-	render: function() {
+export default class Pinpoint extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,32C132.3,32,32,132.3,32,256c0,123.7,100.3,224,224,224c123.7,0,224-100.3,224-224C480,132.3,379.7,32,256,32z
 	 M391.8,391.8c-32.5,32.5-74.6,51.9-119.8,55.6L264,384h-16l-7.9,63.3c-45.3-3.7-87.4-23.1-119.8-55.6
@@ -11,4 +11,4 @@ var Pinpoint = React.createClass({
 	"></path>
 </IconBase>;
 	}
-});
+};

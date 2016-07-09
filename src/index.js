@@ -1,5 +1,8 @@
 var React = require('react');
+import ReactDOM from 'react-dom';
 
+import AndroidCall from 'icons/AndroidCall';
+/*
 module.exports.IconBase = React.createClass({
     propTypes: {
         src: React.PropTypes.String,
@@ -21,4 +24,6 @@ module.exports.IconBase = React.createClass({
     }
 })
 
+*/
 
+//ReactDOM.render(<AndroidCall />, document.getElementById('app'));

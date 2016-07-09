@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Icecream = React.createClass({
-	render: function() {
+export default class Icecream extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="128,256 256,480 384,256 	"></polygon>
@@ -15,4 +15,4 @@ var Icecream = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

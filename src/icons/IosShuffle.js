@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosShuffle = React.createClass({
-	render: function() {
+export default class IosShuffle extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M362.121,207.146L352,194.854L413.784,144h-46.117c-93.327,0-129.147,74.511-163.787,138.832
@@ -20,4 +20,4 @@ var IosShuffle = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

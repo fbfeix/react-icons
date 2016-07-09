@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var FlashOff = React.createClass({
-	render: function() {
+export default class FlashOff extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M147.4,451.9c0.4,0.2,0.7,0.5,1.1,0.7c10.9,6,22.5,10.7,34.4,14.8c1.8,0.6,3.6,1.2,5.4,1.8c21.4,6.8,44,10.9,67.7,10.9
@@ -16,4 +16,4 @@ var FlashOff = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

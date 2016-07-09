@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidExpand = React.createClass({
-	render: function() {
+export default class AndroidExpand extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="396.795,396.8 320,396.8 320,448 448,448 448,320 396.795,320 	"></polygon>
@@ -12,4 +12,4 @@ var AndroidExpand = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

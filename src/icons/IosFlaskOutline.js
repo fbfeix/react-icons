@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosFlaskOutline = React.createClass({
-	render: function() {
+export default class IosFlaskOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M436.912,370.441L320,175V48h16V32h-16.009H304v16v131.418l2.514,3.791l116.575,194.834
@@ -19,4 +19,4 @@ var IosFlaskOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

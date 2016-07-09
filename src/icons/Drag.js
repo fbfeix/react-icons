@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Drag = React.createClass({
-	render: function() {
+export default class Drag extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<rect y="144" width="512" height="32"></rect>
@@ -11,4 +11,4 @@ var Drag = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

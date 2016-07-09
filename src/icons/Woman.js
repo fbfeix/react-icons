@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Woman = React.createClass({
-	render: function() {
+export default class Woman extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M190.4,148.6L161,252.9c-6.3,22.8,20.7,31.7,27.3,10.3l26.3-96.2h7.4l-45.2,169H219v127c0,23,32,23,32,0V336h10v127
@@ -13,4 +13,4 @@ var Woman = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

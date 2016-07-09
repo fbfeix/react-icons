@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosTennisball = React.createClass({
-	render: function() {
+export default class IosTennisball extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M48.05,251.556c-0.001,0.039-0.003,0.077-0.004,0.116c0,0,0.002,0,0.003,0C48.049,251.634,48.049,251.595,48.05,251.556z"></path>
@@ -24,4 +24,4 @@ var IosTennisball = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

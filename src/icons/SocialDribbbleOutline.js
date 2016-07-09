@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialDribbbleOutline = React.createClass({
-	render: function() {
+export default class SocialDribbbleOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,64C150,64,64,150,64,256c0,106.1,86,192,192,192s192-85.9,192-192C448,150,362,64,256,64z M377.9,152.5
 	c21.6,25.4,35.3,57.6,37.7,92.9c-34.6-1.8-76-1.8-109.2,1.3c-4.2-10.6-8.5-21-13.2-31C331.5,199.1,361,177.3,377.9,152.5z M256,96
@@ -15,4 +15,4 @@ var SocialDribbbleOutline = React.createClass({
 	C409.6,322.8,382,365,342.5,390.5z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Fork = React.createClass({
-	render: function() {
+export default class Fork extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M270.2,148.9C270.2,149,270.1,149,270.2,148.9v0.1V148.9z"></path>
@@ -14,4 +14,4 @@ var Fork = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

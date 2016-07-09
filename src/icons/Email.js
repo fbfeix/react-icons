@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Email = React.createClass({
-	render: function() {
+export default class Email extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M67,148.7c11,5.8,163.8,89.1,169.5,92.1c5.7,3,11.5,4.4,20.5,4.4c9,0,14.8-1.4,20.5-4.4c5.7-3,158.5-86.3,169.5-92.1
@@ -15,4 +15,4 @@ var Email = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosGameControllerB = React.createClass({
-	render: function() {
+export default class IosGameControllerB extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M135.123,204.568c-10.688,0-19.343,8.717-19.343,19.441c0,10.727,8.655,19.447,19.343,19.447
@@ -23,4 +23,4 @@ var IosGameControllerB = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

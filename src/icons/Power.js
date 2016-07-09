@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Power = React.createClass({
-	render: function() {
+export default class Power extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,256c-17.7,0-32-14.3-32-32V64c0-17.7,14.3-32,32-32s32,14.3,32,32v160C288,241.7,273.7,256,256,256z"></path>
@@ -15,4 +15,4 @@ var Power = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialWhatsapp = React.createClass({
-	render: function() {
+export default class SocialWhatsapp extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M260.062,32C138.605,32,40.134,129.701,40.134,250.232c0,41.23,11.532,79.79,31.559,112.687L32,480l121.764-38.682
@@ -18,4 +18,4 @@ var SocialWhatsapp = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

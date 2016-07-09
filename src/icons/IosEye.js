@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosEye = React.createClass({
-	render: function() {
+export default class IosEye extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M447.1,256.2C401.8,204,339.2,144,256,144c-33.6,0-64.4,9.5-96.9,29.8C131.7,191,103.6,215.2,65,255l-1,1l6.7,6.9
@@ -13,4 +13,4 @@ var IosEye = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

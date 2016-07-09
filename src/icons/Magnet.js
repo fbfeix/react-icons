@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Magnet = React.createClass({
-	render: function() {
+export default class Magnet extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,32C141,32.5,64,109.6,64,231.8c0,48.8,2.1,76.8,14.5,127.8c15.9,65.7,39.1,113.3,39.1,113.3l0.6,1.3
 	c1.9,3.4,5.5,5.8,9.8,5.8c1.4,0,2.7-0.2,4-0.7l1.7-0.8l50.3-20.7l1.8-0.8c3.3-1.9,5.5-5.3,5.5-9.3c-0.2-1.4-0.4-2.8-1-4
@@ -14,4 +14,4 @@ var Magnet = React.createClass({
 	c8.6-19.2,26.4-59.2,35.6-98.4l42.5,12.3C404.1,411.5,386.8,450.7,381.4,462.5z"></path>
 </IconBase>;
 	}
-});
+};

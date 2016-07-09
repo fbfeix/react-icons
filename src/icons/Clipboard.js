@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Clipboard = React.createClass({
-	render: function() {
+export default class Clipboard extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M161,160.5h192c-1.688-20-9.729-35.45-27.921-40.356c-0.446-0.119-1.12-0.424-1.567-0.541
@@ -22,4 +22,4 @@ var Clipboard = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

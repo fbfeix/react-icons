@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SoupCan = React.createClass({
-	render: function() {
+export default class SoupCan extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<ellipse cx="256" cy="80" rx="160" ry="64"></ellipse>
@@ -16,4 +16,4 @@ var SoupCan = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

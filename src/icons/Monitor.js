@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Monitor = React.createClass({
-	render: function() {
+export default class Monitor extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M468.7,64H43.3c-6,0-11.3,5-11.3,11.1v265.7c0,6.2,5.2,11.1,11.3,11.1h425.4c6,0,11.3-5,11.3-11.1V75.1
@@ -12,4 +12,4 @@ var Monitor = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

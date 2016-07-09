@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidPlaystore = React.createClass({
-	render: function() {
+export default class AndroidPlaystore extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M464,152H360c0-57-46.562-103.859-104-103.859C198.562,48.141,152,95,152,152H48C66.688,368,61,464,61,464h389.999
@@ -11,4 +11,4 @@ var AndroidPlaystore = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

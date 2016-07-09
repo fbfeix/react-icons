@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialHackernewsOutline = React.createClass({
-	render: function() {
+export default class SocialHackernewsOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M416,96v320H96V96H416 M448,64H64v384h384V64L448,64z"></path>
@@ -12,4 +12,4 @@ var SocialHackernewsOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

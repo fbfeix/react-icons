@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosColorWandOutline = React.createClass({
-	render: function() {
+export default class IosColorWandOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M192.011,149.661l-34.043,34.041l256.097,256.096L448,405.757L192.011,149.661z M212.596,215.702l11.415-11.414
@@ -17,4 +17,4 @@ var IosColorWandOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

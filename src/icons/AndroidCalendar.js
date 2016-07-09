@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidCalendar = React.createClass({
-	render: function() {
+export default class AndroidCalendar extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M368.005,272h-96v96h96V272z M336.005,64v32h-160V64h-48v32h-24.01c-22.002,0-40,17.998-40,40v272
@@ -11,4 +11,4 @@ var AndroidCalendar = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

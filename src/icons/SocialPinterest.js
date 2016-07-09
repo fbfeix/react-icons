@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialPinterest = React.createClass({
-	render: function() {
+export default class SocialPinterest extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,32C132.3,32,32,132.3,32,256c0,91.7,55.2,170.5,134.1,205.2c-0.6-15.6-0.1-34.4,3.9-51.4
@@ -15,4 +15,4 @@ var SocialPinterest = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialBitcoinOutline = React.createClass({
-	render: function() {
+export default class SocialBitcoinOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M279.7,48v47v15.1l15.1,0.8c16.9,0.9,28.8,3.3,40.7,7.9c13.8,5.3,24.2,12.6,31.1,21.7c5.7,7.6,9,19.4,10,36.2
@@ -27,4 +27,4 @@ var SocialBitcoinOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

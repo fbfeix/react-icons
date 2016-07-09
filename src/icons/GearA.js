@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var GearA = React.createClass({
-	render: function() {
+export default class GearA extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M411.1,256c0-23.9,14.8-42.8,36.9-55.8c-4-13.3-9.3-26.2-15.8-38.2c-24.9,6.5-45-3.2-62-20.2c-16.9-16.9-22.1-37.1-15.6-62
@@ -15,4 +15,4 @@ var GearA = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidFavorite = React.createClass({
-	render: function() {
+export default class AndroidFavorite extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,448l-30.164-27.211C118.718,322.442,48,258.61,48,179.095C48,114.221,97.918,64,162.4,64
@@ -11,4 +11,4 @@ var AndroidFavorite = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

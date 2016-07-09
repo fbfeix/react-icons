@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosRefreshEmpty = React.createClass({
-	render: function() {
+export default class IosRefreshEmpty extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,384.1c-70.7,0-128-57.3-128-128.1c0-70.8,57.3-128.1,128-128.1V84l96,64l-96,55.7v-55.8
@@ -10,4 +10,4 @@ var IosRefreshEmpty = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

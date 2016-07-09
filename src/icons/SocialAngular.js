@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialAngular = React.createClass({
-	render: function() {
+export default class SocialAngular extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="213.573,256 298.419,256 255.992,166.644 	"></polygon>
@@ -11,4 +11,4 @@ var SocialAngular = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

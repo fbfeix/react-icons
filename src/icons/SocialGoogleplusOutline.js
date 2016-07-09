@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialGoogleplusOutline = React.createClass({
-	render: function() {
+export default class SocialGoogleplusOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M223.5,82.1c11.8,9.6,36.4,29.7,36.4,68c0,37.3-21.5,54.9-43.1,71.5c-6.7,6.6-14.4,13.6-14.4,24.7
@@ -18,4 +18,4 @@ var SocialGoogleplusOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

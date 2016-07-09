@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Share = React.createClass({
-	render: function() {
+export default class Share extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M352,377.9H102.4V198.2h57.5c0,0,14.1-19.7,42.7-38.2H83.2c-10.6,0-19.2,8.5-19.2,19.1v217.9c0,10.5,8.6,19.1,19.2,19.1
@@ -11,4 +11,4 @@ var Share = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

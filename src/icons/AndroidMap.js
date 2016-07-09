@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidMap = React.createClass({
-	render: function() {
+export default class AndroidMap extends React.Component {
+	render() {
 		return <IconBase>
 <g id="Icon_34_">
 	<g>
@@ -16,4 +16,4 @@ var AndroidMap = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

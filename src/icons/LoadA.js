@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var LoadA = React.createClass({
-	render: function() {
+export default class LoadA extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<circle cx="256" cy="96" r="64"></circle>
@@ -17,4 +17,4 @@ var LoadA = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

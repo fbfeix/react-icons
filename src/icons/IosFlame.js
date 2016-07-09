@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosFlame = React.createClass({
-	render: function() {
+export default class IosFlame extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M223.899,32c25.691,145-96.732,142-95.895,288c0.686,119.51,104.975,160,128.143,160c23.166,0,113.88-26,126.931-160
@@ -11,4 +11,4 @@ var IosFlame = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

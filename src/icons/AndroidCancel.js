@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidCancel = React.createClass({
-	render: function() {
+export default class AndroidCancel extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,48C140.559,48,48,140.559,48,256c0,115.436,92.559,208,208,208c115.435,0,208-92.564,208-208
@@ -11,4 +11,4 @@ var AndroidCancel = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

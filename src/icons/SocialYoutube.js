@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialYoutube = React.createClass({
-	render: function() {
+export default class SocialYoutube extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M508.6,148.8c0-45-33.1-81.2-74-81.2C379.2,65,322.7,64,265,64c-3,0-6,0-9,0s-6,0-9,0c-57.6,0-114.2,1-169.6,3.6
@@ -12,4 +12,4 @@ var SocialYoutube = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

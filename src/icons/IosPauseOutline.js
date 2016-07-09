@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPauseOutline = React.createClass({
-	render: function() {
+export default class IosPauseOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M191,112v288h-47V112H191 M207,96h-79v320h79V96L207,96z"></path>
@@ -10,4 +10,4 @@ var IosPauseOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

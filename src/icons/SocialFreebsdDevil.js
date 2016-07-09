@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialFreebsdDevil = React.createClass({
-	render: function() {
+export default class SocialFreebsdDevil extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -22,4 +22,4 @@ var SocialFreebsdDevil = React.createClass({
 	s27.5-21.6,23.5-56.8C265.9,210.2,237.3,210.7,232,218z"></path>
 </IconBase>;
 	}
-});
+};

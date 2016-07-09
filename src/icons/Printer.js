@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Printer = React.createClass({
-	render: function() {
+export default class Printer extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M423.8,128H384V64H128v64H88.2C60.3,128,32,144.9,32,182.6v123.8c0,38,28.3,61.6,56.2,61.6c0,0,30.4,0,39.8,0v112h5h11h224
@@ -14,4 +14,4 @@ var Printer = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

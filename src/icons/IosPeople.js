@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosPeople = React.createClass({
-	render: function() {
+export default class IosPeople extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M349.2,334.8C360.5,338.7,338,330.9,349.2,334.8L349.2,334.8z"></path>
@@ -29,4 +29,4 @@ var IosPeople = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

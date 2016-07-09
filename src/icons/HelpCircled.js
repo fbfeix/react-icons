@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var HelpCircled = React.createClass({
-	render: function() {
+export default class HelpCircled extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,32C132.3,32,32,132.3,32,256s100.3,224,224,224c123.7,0,224-100.3,224-224S379.7,32,256,32z M276.2,358.7
@@ -15,4 +15,4 @@ var HelpCircled = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

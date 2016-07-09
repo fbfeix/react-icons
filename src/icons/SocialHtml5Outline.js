@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialHtml5Outline = React.createClass({
-	render: function() {
+export default class SocialHtml5Outline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M64,32l34.936,403.301L255.769,480l157.245-44.705L448,32H64z M383.041,410.51l-127.262,36.187l-126.867-36.169L98.896,64
@@ -13,4 +13,4 @@ var SocialHtml5Outline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

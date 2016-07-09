@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SkipBackward = React.createClass({
-	render: function() {
+export default class SkipBackward extends React.Component {
+	render() {
 		return <IconBase>
 <style type="text/css">
 
@@ -15,4 +15,4 @@ var SkipBackward = React.createClass({
 	C64,101,68.9,96,75.7,96z"></path>
 </IconBase>;
 	}
-});
+};

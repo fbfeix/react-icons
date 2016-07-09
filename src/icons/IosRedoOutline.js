@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosRedoOutline = React.createClass({
-	render: function() {
+export default class IosRedoOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M64,400h10.3l19.2-31.2c20.5-32.7,44.9-62.8,75.8-76.6c24.4-10.9,46.7-18.9,86.7-20V352l192-128L256,96v80.3
@@ -11,4 +11,4 @@ var IosRedoOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

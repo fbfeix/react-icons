@@ -1,11 +1,11 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosFastforwardOutline = React.createClass({
-	render: function() {
+export default class IosFastforwardOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M48,155l183.5,101L48,356.9V155 M272,155.8L448,256L272,356.4v-95.6v-27.1V156 M256,128v123.2L32,128v256l224-123.2V384
 	l224-128L256,128L256,128z"></path>
 </IconBase>;
 	}
-});
+};

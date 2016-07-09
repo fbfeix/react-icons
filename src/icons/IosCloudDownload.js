@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosCloudDownload = React.createClass({
-	render: function() {
+export default class IosCloudDownload extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="248,435 193.3,381.2 181.6,392.6 256.1,466 330.6,392.6 318.8,381.2 264,435 264,328 248,328 	"></polygon>
@@ -12,4 +12,4 @@ var IosCloudDownload = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

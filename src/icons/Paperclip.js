@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Paperclip = React.createClass({
-	render: function() {
+export default class Paperclip extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M324.6,154.9c-6.3-0.1-11.4,5.1-11.4,11.6L313,361.3c-0.1,43.8-29.7,63.4-57.2,63.2c-27.5-0.3-57.1-20.4-57-64.1
 	c0-33.5,0.2-167.7,0.3-234.8c0-15.4,6-27.4,16.8-33.7c10.6-6.2,24.4-6.1,35,0.3c10.8,6.5,16.7,18.6,16.7,34l-0.3,224.5
@@ -13,4 +13,4 @@ var Paperclip = React.createClass({
 	C336,160.2,330.9,154.9,324.6,154.9z"></path>
 </IconBase>;
 	}
-});
+};

@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosRefreshOutline = React.createClass({
-	render: function() {
+export default class IosRefreshOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M364.1,256c0,60-48.5,108.2-108.1,108.2S147.9,315.7,147.9,256c0-59.6,48.5-108.1,108.1-108.1v55.8l96-55.7l-96-64v44
 	c-70.7,0-128,57.4-128,128.1c0,70.8,57.3,128.1,128,128.1c70.7,0,128-57.1,128-128.1H364.1z"></path>
@@ -15,4 +15,4 @@ var IosRefreshOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

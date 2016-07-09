@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosMicOutline = React.createClass({
-	render: function() {
+export default class IosMicOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M256,32c-43.7,0-79,37.5-79,83.5V270c0,46,35.3,83.5,79,83.5c43.7,0,79-37.5,79-83.5V115.5C335,69.5,299.7,32,256,32z
@@ -12,4 +12,4 @@ var IosMicOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

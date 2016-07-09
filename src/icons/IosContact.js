@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosContact = React.createClass({
-	render: function() {
+export default class IosContact extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M256,48C141.1,48,48,141.1,48,256c0,114.9,93.1,208,208,208c114.9,0,208-93.1,208-208C464,141.1,370.9,48,256,48z
 	 M256,446.7c-58.6,0-111.1-26.6-146.1-68.3c17.8-7.7,62.2-23.7,90.3-31.9c2.2-0.7,2.6-0.8,2.6-10.7c0-10.6-1.2-18.1-3.8-23.6
@@ -13,4 +13,4 @@ var IosContact = React.createClass({
 	c26.7,7.9,72.7,23.8,93,32.1C367.2,420,314.7,446.7,256,446.7z"></path>
 </IconBase>;
 	}
-});
+};

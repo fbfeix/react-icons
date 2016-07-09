@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Trophy = React.createClass({
-	render: function() {
+export default class Trophy extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M479.863,103.342c-0.051-2.833-0.096-5.279-0.096-7.342h-80.835c1.56-34.617,0.512-64,0.512-64s-95.591,0-142.568,0
 	c-0.337,0-0.669,0.022-1,0.056c-0.33-0.034-0.662-0.056-1-0.056c-46.977,0-142.931,0-142.931,0s-1.048,29.383,0.512,64H32.232H32
@@ -16,4 +16,4 @@ var Trophy = React.createClass({
 	c1.39-8.28,2.488-17.067,3.356-25.98h51.096C446.981,150.996,443.198,180.966,428.737,210.745z"></path>
 </IconBase>;
 	}
-});
+};

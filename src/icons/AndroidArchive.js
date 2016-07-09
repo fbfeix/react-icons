@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var AndroidArchive = React.createClass({
-	render: function() {
+export default class AndroidArchive extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M453.594,100.001l-32.353-39.299C415.469,52.627,405.083,48,394.664,48H117.335c-10.416,0-20.801,4.627-26.576,12.702
@@ -12,4 +12,4 @@ var AndroidArchive = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

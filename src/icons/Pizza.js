@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Pizza = React.createClass({
-	render: function() {
+export default class Pizza extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M394.619,130.445c-42.658-18.924-89.266-28.472-138.649-28.425c-49.373-0.047-99.27,10.262-138.641,27.979
@@ -20,4 +20,4 @@ var Pizza = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

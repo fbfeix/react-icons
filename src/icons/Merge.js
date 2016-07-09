@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Merge = React.createClass({
-	render: function() {
+export default class Merge extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M384,224c-23.637,0-44.307,12.89-55.391,32H319c-42.464,0-79.99-17.904-111.535-53.214
 	c-20.356-22.787-33.493-48.869-37.856-58.218C183.301,132.822,192,115.413,192,96c0-35.29-28.71-64-64-64S64,60.71,64,96
@@ -13,4 +13,4 @@ var Merge = React.createClass({
 	c-17.673,0-32-14.327-32-32s14.327-32,32-32s32,14.327,32,32S401.673,320,384,320z"></path>
 </IconBase>;
 	}
-});
+};

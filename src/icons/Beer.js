@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Beer = React.createClass({
-	render: function() {
+export default class Beer extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M416,160h-32v-16c14.5-3.5,32-24.3,32-48c0-35.3-28.7-64-64-64c-16.3,0-31.1,6.1-42.4,16.1C297.2,38,281.4,32,264.2,32
@@ -28,4 +28,4 @@ var Beer = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

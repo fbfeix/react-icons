@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var ArrowExpand = React.createClass({
-	render: function() {
+export default class ArrowExpand extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="274,209.7 337.9,145.9 288,96 416,96 416,224 366.1,174.1 302.3,238 	"></polygon>
@@ -12,4 +12,4 @@ var ArrowExpand = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

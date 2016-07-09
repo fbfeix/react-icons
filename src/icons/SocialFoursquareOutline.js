@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialFoursquareOutline = React.createClass({
-	render: function() {
+export default class SocialFoursquareOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M398.484,164.452l-27.399,137.185C372.848,294.486,386.545,224.793,398.484,164.452z"></path>
@@ -22,4 +22,4 @@ var SocialFoursquareOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

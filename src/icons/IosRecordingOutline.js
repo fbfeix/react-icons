@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var IosRecordingOutline = React.createClass({
-	render: function() {
+export default class IosRecordingOutline extends React.Component {
+	render() {
 		return <IconBase>
 <path d="M386.2,144c-60.6,0-109.8,50.1-109.8,112c0,40.4,21,75.7,52.5,95.4H183.1c31.5-19.7,52.5-55,52.5-95.4
 	c0-61.9-49.2-112-109.8-112C65.2,144,16,194.1,16,256c0,61.9,49.2,112,109.8,112h260.4c60.6,0,109.8-50.1,109.8-112
@@ -15,4 +15,4 @@ var IosRecordingOutline = React.createClass({
 	c-35.3,0-64,28.7-64,64c0,35.3,28.7,64,64,64s64-28.7,64-64C192,220.7,163.3,192,128,192L128,192z"></path>
 </IconBase>;
 	}
-});
+};

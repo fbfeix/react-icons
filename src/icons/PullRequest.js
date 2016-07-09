@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var PullRequest = React.createClass({
-	render: function() {
+export default class PullRequest extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M128,64c-35.29,0-64,28.71-64,64c0,23.637,12.89,44.307,32,55.391v177.219C76.89,371.693,64,392.363,64,416
@@ -16,4 +16,4 @@ var PullRequest = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

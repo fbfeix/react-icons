@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var Chatboxes = React.createClass({
-	render: function() {
+export default class Chatboxes extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<path d="M294.1,365.5c-2.6-1.8-7.2-4.5-17.5-4.5H160.5c-34.7,0-64.5-26.1-64.5-59.2V201h-1.8C67.9,201,48,221.5,48,246.5v128.9
@@ -12,4 +12,4 @@ var Chatboxes = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};

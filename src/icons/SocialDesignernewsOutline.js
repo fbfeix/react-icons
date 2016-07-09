@@ -1,8 +1,8 @@
-var React = require('react');
-var IconBase = require(__dirname + '/../components/IconBase/IconBase');
+import React from 'react';
+import IconBase from './../components/IconBase/IconBase';
 
-var SocialDesignernewsOutline = React.createClass({
-	render: function() {
+export default class SocialDesignernewsOutline extends React.Component {
+	render() {
 		return <IconBase>
 <g>
 	<polygon points="290.9,145.9 226.5,96 291.1,198.8 	"></polygon>
@@ -18,4 +18,4 @@ var SocialDesignernewsOutline = React.createClass({
 </g>
 </IconBase>;
 	}
-});
+};
