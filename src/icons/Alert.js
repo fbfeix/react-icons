@@ -1,7 +1,7 @@
 var React = require('react');
-var IconBase = require(__dirname + 'components/IconBase/IconBase');
+var IconBase = require(__dirname + '/../components/IconBase/IconBase');
 
-default export class Alert extends React.Component {
+var Alert = React.createClass({
 	render: function() {
 		return <IconBase>
 <g>
@@ -9,4 +9,4 @@ default export class Alert extends React.Component {
 </g>
 </IconBase>;
 	}
-};
+});

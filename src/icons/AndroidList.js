@@ -1,5 +1,5 @@
 var React = require('react');
-var IconBase = require(__dirname + 'components/IconBase/IconBase');
+var IconBase = require(__dirname + '/../components/IconBase/IconBase');
 
 var AndroidList = React.createClass({
 	render: function() {
