@@ -26,4 +26,5 @@ module.exports.IconBase = React.createClass({
 
 */
 
-//ReactDOM.render(<AndroidCall />, document.getElementById('app'));
+ReactDOM.render(<svg className="icon" version="1.1" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512"><AndroidCall bare="true"/></svg>, document.getElementById('app'));

@@ -3,7 +3,18 @@ import IconBase from './../components/IconBase/IconBase';
 
 export default class IosInformationEmpty extends React.Component {
 	render() {
-		return <IconBase>
+if(this.props.bare) {
+			return <g>
+
+<g>
+	<g>
+		<circle cx="251.5" cy="172" r="20"></circle>
+		<polygon points="272,344 272,216 224,216 224,224 240,224 240,344 224,344 224,352 288,352 288,344 		"></polygon>
+	</g>
+</g>
+
+			</g>;
+		}		return <IconBase>
 <g>
 	<g>
 		<circle cx="251.5" cy="172" r="20"></circle>
@@ -12,4 +23,4 @@ export default class IosInformationEmpty extends React.Component {
 </g>
 </IconBase>;
 	}
-};
+};IosInformationEmpty.defaultProps = {bare: false}
